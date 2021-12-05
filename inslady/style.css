@@ -17,6 +17,7 @@
 7. Arrival Area
 8. Time Sale Area
 9. Ranking Area
+10. Pick Up Area
 11. Subscribe Area
 12. Instagram Area
 13. Service Area
@@ -1250,6 +1251,74 @@ hr {
 .ranking-2 .p-btn:hover,
 .time-sale-2 .p-btn:hover {
     color: #3365e4;
+}
+
+/* =============10. Pick Up Area============= */
+
+.pick-up-item-img img {
+    height: 350px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pick-up-item-img img:hover {
+    opacity: 0.8;
+}
+.pick-up-item-img{
+    position: relative;
+}
+
+.pick-up-item-detail h5 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+}
+
+.pick-up-item-detail .price span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.pick-up .slick-arrow {
+    font-size: 32px;
+    color: #282828;
+    cursor: pointer;
+    position: absolute;
+    top: 38%;
+    z-index: 33;
+}
+.pick-up .slick-arrow:hover {
+    color: #ff5235;
+}
+.pick-up .slick-arrow.slider-slick-next {
+    right: 0px;
+}
+
+.pick-up .slick-arrow.slider-slick-prev {
+    left: 0px;
+}
+
+.pick-up .slick-dots {
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+}
+.pick-up .slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 7px;
+    max-width: 13px;
+    padding: 0;
+    width: 13px;
+    height: 13px;
 }
 
 /* =============11. Subscribe Area============= */

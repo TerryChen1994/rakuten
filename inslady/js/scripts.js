@@ -89,6 +89,49 @@
         })
     });
 
+    // pick up slider
+
+    $('.pick-up-slider').slick({
+        dots: true,
+        customPaging: function(slider, i) {
+            // this example would render "tabs" with titles
+            return '<i class="fas fa-circle pick-up-dot"></i>';
+        },
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 400,
+        prevArrow: '<a class="slider-slick-prev"><i class="las la-arrow-left"></i></a>',
+        nextArrow: '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>',
+        responsive: [
+            {
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 660,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 330,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
     // auto-popup
     $(document).ready(function () {
         setTimeout(function () {
