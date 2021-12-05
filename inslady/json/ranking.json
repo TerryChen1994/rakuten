@@ -1,0 +1,33 @@
+{
+  "ranking_01_name" : "なまえなんでもいいなranking商品名1" ,
+  "ranking_01_price" : "1000円(税込)" ,
+  "ranking_01_link" : "https://#1",
+
+  "ranking_02_name" : "なまえなんでもいいranking商品名2" ,
+  "ranking_02_price" : "2000円(税込)",
+  "ranking_02_link" : "https://#2",
+
+  "ranking_03_name" : "なまえなんでもいいranking商品名3" ,
+  "ranking_03_price" : "3000円(税込)",
+  "ranking_03_link" : "https://#3",
+
+  "ranking_04_name" : "なまえなんでもいいranking商品名4" ,
+  "ranking_04_price" : "4000円(税込)",
+  "ranking_04_link" : "https://#4",
+
+  "ranking_05_name" : "なまえなんでもいいranking商品名5" ,
+  "ranking_05_price" : "5000円(税込)",
+  "ranking_05_link" : "https://#5",
+
+  "ranking_06_name" : "なまえなんでもいいranking商品名6" ,
+  "ranking_06_price" : "6000円(税込)",
+  "ranking_06_link" : "https://#6",
+
+  "ranking_07_name" : "なまえなんでもいいranking商品名7" ,
+  "ranking_07_price" : "7000円(税込)",
+  "ranking_07_link" : "https://#7",
+
+  "ranking_08_name" : "なまえなんでもいいranking商品名8" ,
+  "ranking_08_price" : "8000円(税込)",
+  "ranking_08_link" : "https://#8"
+}

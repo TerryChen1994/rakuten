@@ -1,0 +1,33 @@
+{
+  "new_arrival_01_name" : "なまえなんでもいいな商品名1" ,
+  "new_arrival_01_price" : "1000円(税込)" ,
+  "new_arrival_01_link" : "https://#1",
+
+  "new_arrival_02_name" : "なまえなんでもいい商品名2" ,
+  "new_arrival_02_price" : "2000円(税込)",
+  "new_arrival_02_link" : "https://#2",
+
+  "new_arrival_03_name" : "なまえなんでもいい商品名3" ,
+  "new_arrival_03_price" : "3000円(税込)",
+  "new_arrival_03_link" : "https://#3",
+
+  "new_arrival_04_name" : "なまえなんでもいい商品名4" ,
+  "new_arrival_04_price" : "4000円(税込)",
+  "new_arrival_04_link" : "https://#4",
+
+  "new_arrival_05_name" : "なまえなんでもいい商品名5" ,
+  "new_arrival_05_price" : "5000円(税込)",
+  "new_arrival_05_link" : "https://#5",
+
+  "new_arrival_06_name" : "なまえなんでもいい商品名6" ,
+  "new_arrival_06_price" : "6000円(税込)",
+  "new_arrival_06_link" : "https://#6",
+
+  "new_arrival_07_name" : "なまえなんでもいい商品名7" ,
+  "new_arrival_07_price" : "7000円(税込)",
+  "new_arrival_07_link" : "https://#7",
+
+  "new_arrival_08_name" : "なまえなんでもいい商品名8" ,
+  "new_arrival_08_price" : "8000円(税込)",
+  "new_arrival_08_link" : "https://#8"
+}

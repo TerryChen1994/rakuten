@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>トップページ | 楽天テンプレート</title>
+<meta name="description" content="トップページの説明文を記入する"/>
+<meta name="keywords" content="メインキーワード,サブキーワード,店舗名,楽天,楽天市場">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="/" />
+<link href="/images/favicon.ico" type="image/vnd.microsoft.icon" rel="shortcut icon" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/images/favicon.ico">
+</head>
+<body>
+
+    
+
+
+
+
+<!-----header------>
+  <div class="content">
+    <!---- ▼<<< ヘッダー >>> ▼ ---->
+    <div id="header" class="header">
+      <div class="header_head cf">
+        <div class="header_head_left">
+          <p class="header_btn hamburger">
+            <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </p>
+          <a class="header_head_logo" href=""><img src="images/logo.png" alt=""></a>
+          <p class="header_head_lead">サイト説明テキストが入ります。<br />サイト説明テキストが入ります。</p>
+          <div class="header_head_search">
+            <img src="/images/icon_search.png" alt="検索" class="header_head_search_icon">
+          </div>
+          <div class="header_head_search_body">
+            <!--楽天市場用-->
+            <form method="get" action="https://esearch.rakuten.co.jp/rms/sd/esearch/vc" class="searchbox_form cf">
+              <input type="hidden" name="sv" value="6">
+              <input type="hidden" name="sid" value=""><!--店舗専用コード（数字）を記入-->
+              <input type="hidden" name="su" value=""><!--店舗名（英数字）を記入-->
+              <input type="hidden" name="sn" value=""><!--店舗名（日本語）を記入-->
+              <input type="hidden" name="f" value="A">
+              <input type="text" name="sitem" class="searchbox_input">
+              <input type="image" alt="ストア内検索" src="/images/icon_search.png" class="searchbox_btn">
+            </form>
+            <!--楽天市場用-->
+          </div>
+        </div>
+        <ul class="header_head_right cf">
+          <li class="header_head_listitem"><a href="/shopping-guide.html">お買物ガイド</a></li>
+          <li class="header_head_listitem"><a href="https://www.rakuten.co.jp/" target="_blank">楽天市場</a></li>
+        </ul>
+      </div>
+      <!--/.header_head-->
+      <ul class="header_foot cf">
+        <li class="header_foot_listitem"><a href="/company-profile.html">会社概要</a></li>
+        <li class="header_foot_listitem"><a href="/">お支払い・送料</a></li>
+        <li class="header_foot_listitem"><a href="https://item.rakuten.co.jp/??????????/c/">商品一覧</a></li>
+        <li class="header_foot_listitem"><a href="https://ask.step.rakuten.co.jp/inquiry-form/?page=simple-inquiry-top&act=login&ask_text=%E5%BA%97%E9%95%B7%E3%81%AB%E8%B3%AA%E5%95%8F%E3%81%99%E3%82%8B&shopurl=">お問い合わせ</a></li>
+        <!--お客様の声は自店舗のURLを張り付けて下さい-->
+        <li class="header_foot_listitem"><a href="https://review.rakuten.co.jp/">お客様の声</a></li>
+        <li class="header_foot_listitem"><a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cartempty/?shop_bid=?????">カートを見る</a></li>
+      </ul>
+      <!--/.header_ foot-->
+    </div>
+    <!---- ▲<<< ヘッダー >>> ▲ ---->
+    <!-----header------>
+    
+    
+    <!---- ▼<<< メインエリア >>> ▼ ---->
+    <div id="mainArea" class="mainArea cf">
+      <!---- ▼<<< メインエリアコンテンツ >>> ▼ ---->
+      <div id="main" class="main">
+        <div class="mv mB30">
+          <img src="images/img.jpg" alt="">
+        </div>
+        <!--/.mv-->
+        <div class="h1area mB40">
+          <h1 class="h1 mB10">h1タイトル</h1>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
+          テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </div>
+        
+        <div class="h2area mB40">
+          <h2 class="h2 mB10">h2タイトル</h2>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
+          テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </div>
+        
+        <div class="h3area mB40">
+          <h3 class="h3 mB10">h3タイトル</h3>
+          <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
+          テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+        </div>
+        
+        <div class="imgarea">
+          <div class="col1 mB20">
+            <img src="images/img.jpg" alt="">
+          </div>
+          <div class="col1 cf mB20">
+            <div class="col2 col2_1"><img src="images/img.jpg" alt=""></div>
+            <div class="col2 col2_2"><img src="images/img.jpg" alt=""></div>
+          </div>
+          <div class="col1 cf">
+            <div class="col2 col2_1"><img src="images/img.jpg" alt=""></div>
+            <div class="col2 col2_2"><img src="images/img.jpg" alt=""></div>
+          </div>
+        </div>
+        
+        <!--/.imgarea-->
+      </div>
+      <!---- ▲<<< メイン >>> ▲ ---->
+      
+      
+      
+      
+      <!-----side------>
+      <!---- ▼<<< サイドナビ >>> ▼ ---->
+      <div id="sidenav" class="sidenav">
+        
+        <div class="searchbox visible-md">
+        
+          <!--楽天市場用-->
+            <form method="get" action="https://esearch.rakuten.co.jp/rms/sd/esearch/vc" class="searchbox_form cf">
+              <input type="hidden" name="sv" value="6">
+              <input type="hidden" name="sid" value=""><!--店舗専用コード（数字）を記入-->
+              <input type="hidden" name="su" value=""><!--店舗名（英数字）を記入-->
+              <input type="hidden" name="sn" value=""><!--店舗名（日本語）を記入-->
+              <input type="hidden" name="f" value="A">
+              <input type="text" name="sitem" class="searchbox_input">
+              <input type="image" alt="ストア内検索" src="/images/icon_search.png" class="searchbox_btn">
+            </form>
+          <!--楽天市場用-->
+          
+          
+        </div>
+        
+        <ul class="bnr">
+          <li class="bnr_item"><a href="/"><img src="images/bnr.jpg" alt=""></a></li>
+        </ul>
+        
+        <div class="category">
+          <div class="category_head"><a href="https://item.rakuten.co.jp/????/">カテゴリーA</a></div>
+          <ul class="category_list">
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ１</a></li>
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ２</a></li>
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ３</a></li>
+          </ul>
+        </div>
+        
+        
+        <div class="category">
+          <div class="category_head"><a href="https://item.rakuten.co.jp/????/">カテゴリーB</a></div>
+          <ul class="category_list">
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ１</a></li>
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ２</a></li>
+            <li class="category_item"><a href="https://item.rakuten.co.jp/????/">サブカテゴリ３</a></li>
+          </ul>
+        </div>
+        
+        <ul class="bnr">
+          <li class="bnr_item"><a href="/event.html"><img src="images/bnr-event.jpg" alt="イベントページ"></a></li>
+          <li class="bnr_item"><a href="/questions-and-answers.html"><img src="images/bnr-q-and-a.jpg" alt="QandAページ"></a></li>
+          <li class="bnr_item"><a href="/shopping-guide.html"><img src="images/bnr-shopping-guid.jpg" alt="ショッピングガイド"></a></li>
+        </ul>
+        
+        
+        <ul class="bnr">
+          <li class="bnr_item"><a href="https://www.rakuten.co.jp/??????/news.html"><img src="images/sample-mailmg.jpg" alt=""></a></li>
+        </ul>
+        
+        
+      </div>
+      <!---- ▲<<< サイドナビ >>> ▲ ---->
+      <!-----side------>
+      
+    </div>
+    <!---- ▲<<< メインエリア >>> ▲ ---->
+    
+    
+    
+    
+    
+    <!---- ▼<<< ガイド >>> ▼ ---->
+    <div class="guide">
+      <div class="guide_head">お買い物ガイド</div>
+      <ul class="guide_list cf">
+      
+        <li class="guide_item">
+        <p class="text_center"><b>お支払いについて</b></p>
+        <p>クレジットカードまたは銀行振込・代金引換決済でのご注文を承っております。</p>
+        <div class="guide_item_img"><img src="images/sample-card.gif" class="" alt="クレジットカードのイメージ"></div>
+        </li>
+        
+        <li class="guide_item">
+        <p class="text_center"><b>営業時間について</b></p>
+        <p>平日 10:00〜18:00</p>
+        <p>土曜 12:00〜15:00</p>
+        <p>祝祭日は休業とさせていただいております。</p>
+        <p class="text_red">（※お電話・メールでのご対応時間となります）</p>
+        </li>
+        
+        <li class="guide_item">
+        <p class="text_center"><b>プライバシーポリシー</b></p>
+        <p>弊社では、お客様の個人情報を適切に取扱うことが当社の社会的責務であると認識し、本方針を定め、社員一同がこれを遵守することにより、お客様の個人情報の保護に万全を尽くしてまいります。</p>
+        <p>&nbsp;</p>
+        <p>詳細については<a href="/privacy-policy.html" class="text_red">個人情報保護方針へ</a>をご覧ください。</p>
+        </li>
+        
+        <li class="guide_item">
+        <p class="text_center"><b>配送について</b></p>
+        <p>商品ご注文または決済処理後、弊社倉庫からお客様のご登録頂いたご住所にお届けさせて頂きます。</p>
+        <p>また郵便ポストや玄関での受取が行われない場合、各配送業者へご確認をお願い致します。</p>
+          <div class="guide_item_img"><img src="images/sample-time.gif" class="" alt="配送時間のイメージ"></div>
+        </li>
+        
+        <li class="guide_item">
+        <p class="text_center"><b>返品・交換について</b></p>
+        <p>お届けしました商品が不良品の場合、弊社宛てに着払いでお送りください。ただし、故意過失による破損の場合は、送料をご請求致します。</p>
+        <p>&nbsp;</p>
+        <p>詳しくは<a href="/shopping-guide.html" class="text_red">「お買い物ガイド」</a>をご確認ください。</p>
+        </li>
+        
+        <li class="guide_item">
+        <p class="text_center"><b>お問い合わせ</b></p>
+        <p>メールでのお問合せは下記より受付しております。</p>
+        <p>&nbsp;</p>
+        <p class="js-shopNameAfter">店舗名：</p>
+        <p>所在地：〒000-0000 東京都中央区1-1</p>
+        <p>E-mail：sample-shop@shop.rakuten.co.jp</p>
+        <p>&nbsp;</p>
+        <p>また楽天会員の方は<a href="https://ask.step.rakuten.co.jp/inquiry-form/?page=simple-inquiry-top&act=login&ask_text=%E5%BA%97%E9%95%B7%E3%81%AB%E8%B3%AA%E5%95%8F%E3%81%99%E3%82%8B&shopurl=" class="text_red">こちらへ</a></p>
+        </li>
+        
+      </ul>
+    </div>
+    <!---- ▲<<< ガイド >>> ▲ ---->
+    <!---- ▼<<< フッター >>> ▼ ---->
+    <div class="footer">
+      <p class="js-shopNameAfter">&copy;</p>
+    </div>
+    <!---- ▲<<< フッター >>> ▲ ---->
+    
+    
+    
+    <script type="text/javascript" src="js/config.js"></script>
+  </div>
+</body>
+</html>
