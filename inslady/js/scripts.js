@@ -94,7 +94,6 @@
     $('.pick-up-slider').slick({
         dots: true,
         customPaging: function(slider, i) {
-            // this example would render "tabs" with titles
             return '<i class="fas fa-circle pick-up-dot"></i>';
         },
         arrows: true,
