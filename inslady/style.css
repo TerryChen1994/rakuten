@@ -18,8 +18,6 @@
 8. Time Sale Area
 9. Ranking Area
 10. Pick Up Area
-11. Subscribe Area
-12. Instagram Area
 13. Service Area
 14. Brand Area
 15. Footer Area
@@ -68,8 +66,7 @@ a:focus,
 
 a:focus,
 a:hover,
-.portfolio-cat a:hover,
-.footer-menu li a:hover {
+.portfolio-cat a:hover{
     color: black;
     text-decoration: none;
 }
@@ -876,11 +873,11 @@ hr {
 }
 
 .slider-area .slick-arrow.slider-slick-next {
-    right: 40px;
+    right: 50px;
 }
 
 .slider-area .slick-arrow.slider-slick-prev {
-    left: 40px;
+    left: 50px;
 }
 
 .slider-area .slick-arrow:hover {
@@ -888,7 +885,9 @@ hr {
 }
 
 /* ==========5. Top Banner Area========== */
-
+.top-banner-area .slider-area{
+    padding: 0 23px;
+}
 .category-texts span {
     font-size: 18px;
     color: #4a4a4a;
@@ -912,7 +911,7 @@ hr {
 }
 
 .category-img-item.first-items img{
-    width: 670px;
+    width: 630px;
     height: 630px;
 }
 
@@ -978,6 +977,10 @@ hr {
 }
 .sale-items .p-btn span:hover{
     color: rgb(175,176,178) !important;
+}
+
+.arrival-product .new-arrival-items{
+    height: auto !important;
 }
 
 /* Arrival-2 */
@@ -1161,6 +1164,9 @@ hr {
     margin-right: 10px;
 }
 
+.ranking-products{
+    height: auto !important;
+}
 
 .ranking-img img {
     height: 260px;
@@ -1195,6 +1201,7 @@ hr {
 .ranking-items .ranking-img{
     position: relative;
 }
+
 
 .view-items .p-btn span:hover{
     color: rgb(175,176,178) !important;
@@ -1328,104 +1335,8 @@ hr {
     font-size: 15px;
 }
 
-/* =============11. Subscribe Area============= */
 
-.subscribe-form input {
-    position: relative;
-    background: none;
-    height: 30px;
-    width: 455px;
-    padding-left: 35px;
-}
 
-.subscribe-form i {
-    position: absolute;
-    left: 15px;
-    top: 9px;
-}
-
-.subscribe-form {
-    border-bottom: 2px solid rgb(246, 246, 246);
-    width: 570px;
-    position: relative;
-}
-
-.subscribe-form button {
-    height: 30px;
-    line-height: 30px;
-    background: none;
-    color: #4a4a4a;
-    cursor: pointer;
-    width: 0;
-}
-
-.subscribe-form button:hover {
-    color: rgb(255, 82, 53);
-}
-
-.subscribe-form ::-webkit-input-placeholder {
-    line-height: 32px;
-}
-
-.subscribe-form :-ms-input-placeholder {
-    line-height: 32px;
-}
-
-.subscribe-form ::-ms-input-placeholder {
-    line-height: 32px;
-}
-
-.subscribe-form ::placeholder {
-    line-height: 32px;
-}
-
-/* ================12. Instagram Area================ */
-.insta-imgs::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 165, 165);
-    opacity: 0;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-}
-
-.insta-imgs img {
-    width: 100%;
-}
-
-.insta-imgs:hover::before {
-    opacity: 0.6;
-}
-
-.insta-imgs a {
-    position: absolute;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-}
-
-.insta-imgs:hover a {
-    visibility: visible;
-    opacity: 1;
-}
 
 /* ====================13. Service Area==================== */
 .service-details h5 {
@@ -1453,136 +1364,44 @@ hr {
 .footer-area {
     background-color: rgb(246, 246, 246);
 }
-.footer-area .logo{
-    z-index: 0;
-}
-.footer-info ul li {
-    font-size: 15px;
-    line-height: 36px;
-}
 
-.footer-info ul li:first-child span {
-    color: #ff5235;
+.footer-area .copyright{
+    text-align: center;
+    bottom: 0px;
 }
-
-.footer-info p {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
+.footer-area .copyright p{
+    font-size: 10px;
 }
-
-.footer-info input {
-    width: 298px;
-    height: 52px;
-    background-color: rgb(255, 250, 249);
-    border: 1px solid rgb(226, 231, 243);
-    padding-left: 25px;
+.footer-area .big-logo{
+    text-align: center;
 }
-
-.footer-info input::-webkit-input-placeholder {
-    color: #9ba2b5;
+.footer-area img{
+    width: 150px;
+    height: 44px;
+    margin:10px auto;
+}
+.footer-area .footer-nav{
+    vertical-align: baseline;
+    text-align: center;
+}
+.footer-area .footer-nav .nav-item{
+    display: inline-block;
+    margin: 0 15px 5px;
+}
+.footer-area .footer-nav .nav-item a{
+    display: inline-block;
     font-size: 14px;
-}
-
-.footer-info input:-ms-input-placeholder {
-    color: #9ba2b5;
-    font-size: 14px;
-}
-
-.footer-info input::-ms-input-placeholder {
-    color: #9ba2b5;
-    font-size: 14px;
-}
-
-.footer-info input::placeholder {
-    color: #9ba2b5;
-    font-size: 14px;
-}
-
-.footer-input button {
-    background: none;
-    border: none;
-    font-size: 18px;
-    position: absolute;
-    top: 12px;
-    right: 85px;
-    color: rgb(34, 45, 57);
-}
-
-.footer-widget h4 {
-    font-size: 18px;
-    line-height: 50px;
-    font-weight: 500;
-}
-
-.footer-info li a {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 40px;
+    margin: 0 10px 5px;
     color: #7c7a7a;
 }
-
-.footer-info li .slider-btn::after {
-    top: 78%;
+.footer-area .footer-nav .nav-item span{
+    font-size: 12px;
+    font-weight: 400;
 }
-
-.footer-bottom {
-    border-top: 1px solid rgb(224, 227, 239);
+.footer-area .footer-nav .nav-item i{
+    font-weight: 550;
+    margin-right: 1px;
 }
-
-.footer-bottom .copyright p,
-.footer-bottom .policy a,
-.footer-bottom .social-icon li a {
-    font-size: 14px;
-    line-height: 40px;
-    font-weight: 300;
-}
-
-.footer-bottom .copyright p a {
-    color: #ff5235;
-}
-
-.footer-bottom .social-icon li {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-.footer-bottom .social-icon li a,
-.footer-bottom .policy a {
-    color: rgb(150, 157, 180);
-}
-
-.footer-bottom .social-icon li:hover a {
-    color: #5E2CED;
-}
-
-.footer-bottom .policy a:first-child::after {
-    content: "";
-    position: absolute;
-    height: 15px;
-    width: 2px;
-    background-color: rgb(150, 157, 180);
-    left: 110px;
-    top: 0;
-}
-
-/* Footer Area 2 */
-.footer-2 {
-    background-color: rgb(24, 24, 24);
-    color: #c0c0c0;
-}
-
-.footer-2 p,
-.footer-2 li a,
-.footer-2 .footer-bottom .social-icon li a,
-.footer-2 .footer-bottom .policy a {
-    color: #b5b5b5;
-}
-
-.footer-2 .footer-widget h4 {
-    color: #e8e8e8;
-}
-
 
 /* ===============16. Page Title Area=============== */
 .page-title-area {
@@ -3113,17 +2932,6 @@ hr {
         display: none;
     }
 
-    .footer-info p {
-        padding-right: 0;
-    }
-
-    .footer-info input {
-        width: 100%;
-    }
-
-    .footer-input button {
-        right: 10px;
-    }
     .shop-list-ls .arrival-img,
     .shop-list-ls .arrival-details{
         margin-left: 15px;
@@ -3284,8 +3092,13 @@ hr {
         width: 100%;
     }
 
+    .category-img-item.first-items img{
+        width: 351px;
+        height: 351px;
+    }
+
     .category-img-item.second-items {
-        margin-bottom: 22px;
+        margin-bottom: 26px;
     }
     .time-sale-img .sale-badge {
         left: -52px;
@@ -3429,13 +3242,6 @@ hr {
     .news-details-area .news-details .news-img img{
         width: 100%;
     }
-    .footer-area .footer-menu{
-        padding-top: 75px;
-    }
-    .footer-area{
-        margin-top: 80px;
-    }
-
 
 }
 
@@ -3470,6 +3276,9 @@ hr {
     .category-img-item.first-items,
     .category-img-item.second-items {
         margin-bottom: 30px;
+    }
+    .category-img-item.first-items img{
+        margin: 0 auto;
     }
 
     .arrival-img img {
@@ -3519,10 +3328,6 @@ hr {
         margin-bottom: 0;
     }
 
-    .copyright,
-    .policy {
-        margin-top: 0;
-    }
     .product-on-sale .slick-arrow {
        top: -100px;
     }
@@ -3747,17 +3552,6 @@ hr {
     }
     .subscribe-form input {
         width: 70%;
-    }
-    .footer-area{
-        margin-top: 60px;
-    }
-    .footer-bottom .copyright p,
-    .footer-bottom .policy a,
-    .footer-bottom .social-icon li a {
-        font-size: 13px;
-    }
-    .footer-bottom .policy a:first-child::after {
-        left: 104px;
     }
     .toolbar {
         display: block !important;
