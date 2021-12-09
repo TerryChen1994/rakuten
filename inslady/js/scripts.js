@@ -36,24 +36,6 @@
         $('.side-menu').removeClass('open-menu')
     })
 
-        // // search
-        $('.search span').on('click', function () {
-            $('.search-form').addClass('search-open');
-            $('.search-overlap').addClass('overlap-2')
-        })
-        // Close Button
-        $('.search-close span').on('click', function () {
-            $('.search-form').removeClass('search-open');
-            $('.search-overlap').removeClass('overlap-2')
-            
-        })
-        $('.product-cart').on('click', function () {
-            $('.product-on-sale').addClass('cart-open');
-        })
-        $('.product-close-icon span').on('click', function () {
-            $('.product-on-sale').removeClass('cart-open')
-            
-        })
     // Slider Area
     // $('.slider-area').slick({
     //     dots: false,
@@ -173,40 +155,6 @@
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
         event.preventDefault();
-    });
-
-    // Brand Area
-
-    $('.brand-active').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        speed: 400,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 513,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 367,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
     });
 
     // page option
