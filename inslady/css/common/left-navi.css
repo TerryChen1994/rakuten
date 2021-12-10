@@ -1,0 +1,248 @@
+
+/*===================== 1. Theme default css ====================*/
+
+body {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-weight: bold;
+    color: #7c7a7a;
+}
+
+img {
+    transition: all 0.3s ease-out 0s;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+input:focus{
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4a4a4a;
+    font-weight: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span{
+    user-select: text;
+}
+
+dl,dt,dd,ol,ul,li {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #7c7a7a;
+    margin-bottom: 15px;
+}
+
+/* pseudo classes */
+*::-moz-selection {
+    background: rgb(51, 101, 228);
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: rgb(51, 101, 228);
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #a1a1a1;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+*::placeholder {
+    color:#a1a1a1;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+*::focus {
+    outline: none;
+}
+
+*::-moz-focus {
+    outline: none;
+}
+
+/*===================== 1. Left Navi css ====================*/
+.left-navi{
+    width: 100%;
+}
+
+/*-------- Category Part  --------*/
+.category{
+    margin: 0;
+}
+.category h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #141823;
+    border-left: 3px rgb(202,195,187) solid;
+    padding-left: 10px;
+    line-height: 35px;
+    margin: 0;
+    font-weight: 600;
+}
+.category-dt{
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+    position: relative;
+}
+.category-dt span{
+    text-align: left;
+    font-size: 15px;
+    color: #373d3f;
+    font-weight: 550;
+}
+.category-dt i{
+    vertical-align: center;
+    font-size: 25px;
+    float: right;
+    margin-top: 2px;
+}
+.category-dd{
+    display: block;
+}
+.category-dd li{
+    line-height: 28px;
+    width: 100%;
+    padding-left: 30px;
+}
+.category-dd li a{
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+.category-dd li a:hover{
+    color: #ff5235;
+}
+
+.category-dd li a:hover::after{
+    transform: translateX(-50%) scaleX(1);
+    -webkit-transform: translateX(-50%) scaleX(1);
+    -moz-transform: translateX(-50%) scaleX(1);
+    -ms-transform: translateX(-50%) scaleX(1);
+    -o-transform: translateX(-50%) scaleX(1);
+}
+
+/*-------- Price-Selector Part  --------*/
+.price-selector{
+    margin: 30px 0 0 0;
+}
+.price-selector h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #141823;
+    border-left: 3px rgb(202,195,187) solid;
+    padding-left: 10px;
+    line-height: 35px;
+    margin: 0;
+    font-weight: 600;
+}
+.price-selector-dt{
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+    position: relative;
+}
+.price-selector-dt span{
+    text-align: left;
+    font-size: 15px;
+    color: #373d3f;
+    font-weight: 550;
+}
+.price-selector-dt i{
+    vertical-align: center;
+    font-size: 25px;
+    float: right;
+    margin-top: 2px;
+}
+.price-selector-dd{
+    display: block;
+}
+.price-selector-dd li{
+    line-height: 28px;
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+.price-selector-dd li a{
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+.price-selector-dd li a:hover{
+    color: #ff5235;
+}
+
+.price-selector-dd li a:hover::after{
+    transform: translateX(-50%) scaleX(1);
+    -webkit-transform: translateX(-50%) scaleX(1);
+    -moz-transform: translateX(-50%) scaleX(1);
+    -ms-transform: translateX(-50%) scaleX(1);
+    -o-transform: translateX(-50%) scaleX(1);
+}
