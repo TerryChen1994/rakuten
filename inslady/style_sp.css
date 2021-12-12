@@ -442,6 +442,42 @@ input:-webkit-autofill{
     width: 100%;
 }
 
+.top-banner .information{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.top-banner .information h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74)
+}
+
+.top-banner .top-banner-second{
+    width: 100%;
+    overflow: hidden;
+}
+.top-banner-second .top-banner-second-item{
+    margin: 0 5px;
+    width: 100%;
+    opacity: 0.5;
+}
+.top-banner-second .top-banner-second-item img{
+    width: 100%;
+}
+.top-banner-second-item.slick-active,
+.top-banner-second-item.slick-center
+{
+    opacity: 1;
+}
+.top-banner-second-item.slick-active:hover,
+.top-banner-second-item.slick-center:hover
+{
+    opacity: 0.8;
+}
+
 /* ============= 4. Slider Area ======================== */
 .slider-area {
 }
