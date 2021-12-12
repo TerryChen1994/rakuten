@@ -454,41 +454,14 @@ hr {
 .top-banner-area .slider-area{
     padding: 0 23px;
 }
-.category-texts span {
-    font-size: 18px;
-    color: #4a4a4a;
-    line-height: 37px;
-    letter-spacing: .7px;
-    font-weight: 300;
-}
 
-.category-texts h3 {
-    font-size: 25px;
-    line-height: 37px;
-    letter-spacing: .7px;
-    color: #ff6935;
-    text-transform: uppercase;
-}
-
-.category-img-item.first-items .category-texts {
-    position: absolute;
-    top: 60px;
-    left: 70px;
-}
-
-.category-img-item.first-items img{
+.top-banner-item.first-items img{
     width: 630px;
     height: 630px;
 }
 
-.category-img-item img:hover{
+.top-banner-item img:hover{
     opacity: 0.8;
-}
-
-.category-img-item.second-items .category-texts,
-.category-img-item.third-items .category-texts {
-    top: 50px;
-    left: 50px;
 }
 
 /* ================ 7. Arrival Area================ */
@@ -1384,11 +1357,11 @@ hr {
     .service-area .service-widget{
         justify-content: start !important;
     }
-    .category-img-item.first-items,
-    .category-img-item.second-items {
+    .top-banner-item.first-items,
+    .top-banner-item.second-items {
         margin-bottom: 30px;
     }
-    .category-img-item.first-items img{
+    .top-banner-item.first-items img{
         margin: 0 auto;
     }
 

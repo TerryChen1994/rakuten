@@ -348,7 +348,7 @@ input:-webkit-autofill{
 .header-sp .menu-bar{
     padding-left: 10px;
     flex-basis: 25%;
-    padding-top: 7px;
+    padding-top: 6px;
 }
 
 .header-sp .menu-bar img{
@@ -362,7 +362,11 @@ input:-webkit-autofill{
 .header-sp .logo{
     text-align: center;
     flex-basis: 50%;
-    padding-top: 5px;
+    padding-top: 6px;
+}
+.header-sp .logo img{
+    width: 80px;
+    height: 24px;
 }
 
 .nav-icons{
@@ -390,10 +394,13 @@ input:-webkit-autofill{
 
 .search-box{
     width: 100%;
-    height: 120px;
+    height: 60px;
     background: #ececea;
-    padding: 60px 20px 0;
+    padding: 0 20px 0;
     display: none;
+    position: fixed;
+    top: 55px;
+    z-index: 10;
 }
 .search-box form{
     width: 100%;
@@ -419,7 +426,46 @@ input:-webkit-autofill{
     text-align: right;
     background: #ececea;
 }
-/* ============= 11 .ScrollTop Area =============== */
+
+/* ============= 3. Top Banner Area =============== */
+.top-banner-area{
+    width: 100%;
+    display: block;
+}
+.top-banner-area .top-banner{
+    width: 100%;
+}
+.top-banner .top-banner-thumb img:hover{
+    opacity: 0.8;
+}
+.top-banner .top-banner-thumb img{
+    width: 100%;
+}
+
+/* ============= 4. Slider Area ======================== */
+.slider-area {
+}
+.slider-area .slick-arrow {
+    font-size: 32px;
+    color: #282828;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    z-index: 33;
+}
+
+.slider-area .slick-arrow.slider-slick-next {
+    right: 10px;
+}
+
+.slider-area .slick-arrow.slider-slick-prev {
+    left: 10px;
+}
+
+.slider-area .slick-arrow:hover {
+    color: #ff5235;
+}
+/* ============= 11. ScrollTop Area =============== */
 
 .scrollTop{
     position: fixed;

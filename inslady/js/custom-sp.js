@@ -129,20 +129,13 @@
     {
         $('.slider-area').slick({
             dots: false,
-            arrows: true,
+            arrows: false,
             infinite: true,
             autoplay: true,
             autoplaySpeed: 2000,
             speed: 400,
             prevArrow: '<a class="slider-slick-prev"><i class="las la-arrow-left"></i></a>',
-            nextArrow: '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>',
-            responsive: [{
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                }
-            }
-            ]
+            nextArrow: '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>'
         });
         if ($('.slick-slide').hasClass('slick-active')) {
             $('.slider-description h1, .slider-description p, .slider-description a').addClass('animated fadeInLeft');

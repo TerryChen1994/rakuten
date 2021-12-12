@@ -8,10 +8,10 @@
     })
 
     // Main menu
-    // jQuery('#mobile-menu').meanmenu({
-    //     meanMenuContainer: '.mobile-menu',
-    //     meanScreenWidth: "991"
-    // });
+    jQuery('#mobile-menu').meanmenu({
+        meanMenuContainer: '.mobile-menu',
+        meanScreenWidth: "991"
+    });
 
     // Side Menu Sp
     $('.sub-menu-category').show();
