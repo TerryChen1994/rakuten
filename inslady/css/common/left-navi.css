@@ -133,7 +133,7 @@ p {
     margin: 0;
 }
 .category h4{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     color: #141823;
     border-left: 3px rgb(202,195,187) solid;
@@ -152,7 +152,7 @@ p {
 }
 .category-dt span{
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     color: #373d3f;
     font-weight: 550;
 }
@@ -171,7 +171,7 @@ p {
     padding-left: 30px;
 }
 .category-dd li a{
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     font-weight: 500;
 }

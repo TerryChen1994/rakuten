@@ -350,7 +350,7 @@ hr {
 
 .main-menu .sub-menu.menu-level {
     width: 750px;
-    height: 250px;
+    height: 260px;
 }
 
 .main-menu .sub-menu.menu-level li {
@@ -369,7 +369,6 @@ hr {
 .header-1 {
     height: 75px;
     width: 100%;
-    z-index: 33;
     position: fixed;
     z-index: 44;
     background: #ebe7e7;
@@ -797,8 +796,8 @@ hr {
     text-align: center;
 }
 .footer-area img{
-    width: 150px;
-    height: 44px;
+    width: 102px;
+    height: 30px;
     margin:10px auto;
 }
 .footer-area .footer-nav{
