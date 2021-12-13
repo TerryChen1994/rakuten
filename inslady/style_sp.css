@@ -18,7 +18,7 @@
 body {
     font-family: 'Yu Mincho', Serif;
     font-weight: bold;
-    color: #7c7a7a;
+    color: rgb(95,82,74);
 }
 
 img {
@@ -60,7 +60,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: #4a4a4a;
     font-weight: normal;
 }
 
@@ -88,7 +87,6 @@ h1 {
     font-size: 100px;
     line-height: 126px;
     font-weight: 300;
-    color: #292929;
 }
 
 h2 {
@@ -124,7 +122,6 @@ p {
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
-    color: #7c7a7a;
     margin-bottom: 15px;
 }
 
@@ -134,11 +131,14 @@ hr {
     margin: 0;
     padding: 0;
 }
+a, h1, h2, h3, h4, h5, h6, span, p{
+    color: rgb(95,82,74);
+}
 
 .container-sp{
     width: 100%;
     padding: 0 10px;
-    display: flex
+    display: block;
 }
 .row{
     display:-ms-flexbox;
@@ -265,7 +265,7 @@ input:-webkit-autofill{
     background: #ebe7e7;
 }
 
-.header-sp.sticky {
+.header-1.sticky {
     background: #ebe7e7;
 }
 
@@ -443,8 +443,8 @@ input:-webkit-autofill{
 }
 
 .top-banner .information{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     width: 100%;
     text-align: center;
 }
@@ -501,13 +501,137 @@ input:-webkit-autofill{
 .slider-area .slick-arrow:hover {
     color: #ff5235;
 }
+
+/* ============= 5. Time Sale Area ======================== */
+.time-sale{
+    display: block;
+    width: 100%;
+}
+.time-sale .time-sale-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.time-sale .time-sale-title h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74)
+}
+.time-sale-box{
+    padding: 30px 40px;
+    background: rgb(246,246,246);
+}
+.time-sale-detail{
+    width: 100%;
+    color: rgb(95,82,74);
+    text-align: center;
+}
+.time-sale-detail .discount{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.time-sale-detail .discount span{
+    color: #ff6935 !important;
+}
+.time-sale-detail .price del{
+    font-size: 15px;
+    line-height: 20px;
+}
+.time-sale-detail .price i{
+    font-size: 15px;
+    line-height: 20px;
+}
+.time-sale-detail .price span{
+    font-size: 20px;
+    line-height: 25px;
+    color: #ff5235;
+    letter-spacing: .6px;
+}
+.time-sale-detail .countdown{
+    font-weight: lighter;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.time-sale-detail .cd-box div span:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: inline;
+}
+.time-sale-detail .cd-box .colon {
+    margin: 3px 5px 0 5px;
+    font-size: 24px;
+}
+.time-sale-detail .cd-box .strings {
+    display: inline !important;
+    font-size: 11px;
+}
+.time-sale-detail .interval{
+
+}
+.time-sale-img{
+    flex-basis: 50%;
+}
+.time-sale-img img{
+    width: 100%;
+}
+.time-sale-img img:hover{
+    opacity: 0.8;
+}
+
+/* ============= 6. New Arrival Area ======================== */
+.new-arrival-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.new-arrival .new-arrival-title h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74)
+}
+.new-arrival .arrival-product{
+    width: 100%;
+}
+.new-arrival-items .arrival-item{
+    margin: 0 1% 10px;
+    flex-basis: 48%;
+}
+
+.arrival-item .arrival-img img{
+    width: 100%;
+}
+.arrival-item .arrival-img img:hover{
+    opacity: 0.8;
+}
+.arrival-item .arrival-details h5{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+.arrival-item .arrival-details h5 a{
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+.arrival-item .arrival-details .price span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
 /* ============= 11. ScrollTop Area =============== */
 
 .scrollTop{
     position: fixed;
     bottom: -100px;
     right: 20px;
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(175,175,178);
     height: 50px;
     width: 50px;

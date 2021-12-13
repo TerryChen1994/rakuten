@@ -18,10 +18,10 @@ function countdown(end_time){
 				minutes = Math.floor(seconds / 60);
 				seconds -= minutes * 60;
 				//
-				days == 1 ? thisEl.find(".timeRefDays").text("Days") : thisEl.find(".timeRefDays").text("日");
-				hours == 1 ? thisEl.find(".timeRefHours").text("Hours") : thisEl.find(".timeRefHours").text("時");
-				minutes == 1 ? thisEl.find(".timeRefMinutes").text("Mins") : thisEl.find(".timeRefMinutes").text("分");
-				seconds == 1 ? thisEl.find(".timeRefSeconds").text("Secs") : thisEl.find(".timeRefSeconds").text("秒");
+				days == 1 ? thisEl.find(".timeRefDays").text("日") : thisEl.find(".timeRefDays").text("日");
+				hours == 1 ? thisEl.find(".timeRefHours").text("時") : thisEl.find(".timeRefHours").text("時");
+				minutes == 1 ? thisEl.find(".timeRefMinutes").text("分") : thisEl.find(".timeRefMinutes").text("分");
+				seconds == 1 ? thisEl.find(".timeRefSeconds").text("秒") : thisEl.find(".timeRefSeconds").text("秒");
 				//
 				if(r["format"] == "on"){
 					days = String(days).length >= 2 ? days : "0" + days;

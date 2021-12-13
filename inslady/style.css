@@ -466,17 +466,6 @@ hr {
 
 /* ================ 7. Arrival Area================ */
 
-.arrival-menu .abtn {
-    font-size: 18px;
-    line-height: 32px;
-    border: none;
-    font-weight: 300;
-    background-color: transparent;
-    color: #7c7a7a;
-    margin-right: 10px;
-}
-
-
 .arrival-img img {
     height: 260px;
     width: 260px;
@@ -484,11 +473,6 @@ hr {
 
 .arrival-img:hover img {
     opacity: 0.8;
-}
-
-.arrival-menu .abtn:hover,
-.arrival-menu .abtn.active {
-    color: #ff6935;
 }
 
 .arrival-details h5 {

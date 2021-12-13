@@ -29,25 +29,24 @@
         });
         // new_arrival
         $.getJSON("json/new_arrival.json", function(data){
-            for (let i=0;i<8;i++){
+            let width = ($(window).width() - 20) * 0.47 + "px";
+            for (let i=0;i<6;i++){
                 $("#new-arrival-items").append(
-                    '<div class="col-xl-3  col-md-6 col-sm-6 grid-item pl-0 pr-0">\n' +
-                    '   <div class="arrival-items text-center mb-15">\n' +
+                    '<div class="arrival-item text-center">\n' +
                     '       <div class="arrival-img">\n' +
                     '           <a href="' + data["new_arrival_list"][i]["new_arrival_link"] + '">\n' +
                     '               <img src="' + parseImgUrl(data["new_arrival_list"][i]["new_arrival_img"],data["new_arrival_img_size"]) + '" alt="test">\n' +
                     '           </a>\n' +
                     '       </div>\n' +
-                    '       <div class="arrival-details position-relative pt-10 pr-15 pl-15">\n' +
+                    '       <div class="arrival-details position-relative pt-5">\n' +
                     '           <h5 style="margin-bottom: 0px !important;">\n' +
-                    '               <a id="new_arrival_name_link_01" href="' + data["new_arrival_list"][i]["new_arrival_link"] + '">\n' +
+                    '               <a style="width: ' + width + '" id="new_arrival_name_link_01" href="' + data["new_arrival_list"][i]["new_arrival_link"] + '">\n' +
                     '               ' + data["new_arrival_list"][i]["new_arrival_name"] + '\n' +
                     '               </a></h5>\n' +
                     '           <div class="price">\n' +
                     '               <span id="new_arrival_price_01">' + data["new_arrival_list"][i]["new_arrival_price"] + '</span>\n' +
                     '           </div>\n' +
                     '       </div>\n' +
-                    '   </div>\n' +
                     '</div>'
                 );
             }
@@ -60,17 +59,16 @@
             const varLink = "time_sale_link";
             const varOldPrice = "time_sale_old_price";
             const varNewPrice = "time_sale_new_price";
-            const varName = "time_sale_name";
-            const varInterval = "time_sale_interval";
             const varImg = "time_sale_img";
-            document.getElementById(varName).innerText = data["sale_list"][0]["time_sale_name_01"];
+            const varDiscount = "time_sale_discount";
+            const varName = "time_sale_name"
             document.getElementById(varLink).href = data["sale_list"][0]["time_sale_link_01"];
-            document.getElementById(varOldPrice).innerText = data["sale_list"][0]["time_sale_old_price_01"];
-            document.getElementById(varNewPrice).innerText = data["sale_list"][0]["time_sale_new_price_01"];
-            document.getElementById(varInterval).innerText = data["sale_list"][0]["time_sale_interval_01"];
-            document.getElementById(varImg).src = parseImgUrl(data["sale_list"][0]["time_sale_img_01"], data["sale_img_size"]);
+            document.getElementById(varOldPrice).innerText = "¥" + parsePrice(data["sale_list"][0]["time_sale_old_price_01"]);
+            document.getElementById(varNewPrice).innerText = "¥" + parsePrice(data["sale_list"][0]["time_sale_new_price_01"]);
+            document.getElementById(varImg).src = data["sale_list"][0]["time_sale_img_01"];
+            document.getElementById(varDiscount).innerText = data["sale_list"][0]["time_sale_discount_01"];
+            document.getElementById(varName).innerText = data["sale_list"][0]["time_sale_name_01"];
             const end_time = data["sale_list"][0]["time_sale_end_time_01"];
-            console.log(end_time);
             countdown(end_time);
         }).fail(function(){
             console.log("An error has occurred.");
@@ -136,6 +134,14 @@
         imgName = imgName + "?_ex=" + size + "x" + size;
         return imgName;
     };
+    function parsePrice(price){
+        let rprice = price.replace("円(税込)","");
+        return rprice;
+    };
+    function parseInterval(interval){
+        let rinterval = interval.slice(interval.indexOf("~") + 1);
+        return rinterval;
+    }
 
     function slider_area_slick_init()
     {
