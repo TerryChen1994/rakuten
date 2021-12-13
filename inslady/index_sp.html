@@ -35,10 +35,6 @@
 </head>
 
 <body>
-  <!-- scroll top button -->
-  <div id="scrollToTop" class="scrollTop">
-    <i class="las la-arrow-up"></i>
-  </div>
 
   <!-- header area starts -->
   <header>
@@ -119,7 +115,7 @@
             <img src="img/logo/menu.svg">
           </div>
           <div class="logo">
-            <a href="index_sp.html"><img src="img/logo/logo-sp.svg" alt="inslady-logo"></a>
+            <a href="index_sp.html"><img src="img/logo/logo.svg" alt="inslady-logo"></a>
           </div>
           <div class="nav-icons">
             <ul>
@@ -165,10 +161,8 @@
     </div>
     <div class="row time-sale-box">
       <div class="time-sale-detail">
-        <div class="discount">
-          <span id="time_sale_discount"></span>
-        </div>
-        <div id="countdown" class="countdown d-flex mt-5 mb-10">
+
+        <div id="countdown" class="countdown d-flex">
           <div class="cd-box d-flex">
             <div class="d-inline-block">
               <span class="numbers days">00</span>
@@ -197,7 +191,8 @@
             </div>
           </div>
         </div>
-        <div class="time-sale-img">
+
+        <div class="time-sale-img mt-10">
           <div class="text-center position-relative">
             <a id="time_sale_link" href="#">
               <img id="time_sale_img" src="https://" alt="product">
@@ -207,10 +202,17 @@
         <div class="name mt-10">
           <span id="time_sale_name">商品名</span>
         </div>
-        <div class="price mt-10">
+        <div class="price mt-5">
           <del id="time_sale_old_price">商品価格</del>
           <i class="fas fa-caret-right"></i>
           <span id="time_sale_new_price">商品価格</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="ml-auto mr-auto mt-20 mb-5">
+          <a class="p-btn position-relative" href="">
+            <span>今すぐ購入</span>
+          </a>
         </div>
       </div>
     </div>
@@ -227,9 +229,84 @@
         <div id="new-arrival-items" class="row new-arrival-items">
         </div>
       </div>
+      <div class="row">
+        <div class="ml-auto mr-auto mt-10">
+          <a class="p-btn position-relative" href="">
+            <span>View More</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <!-- new arrival area ends -->
+
+  <!-- ranking area starts -->
+  <div class="ranking mt-60">
+    <div class="container-sp">
+      <div class="ranking-title">
+        <h2>Ranking</h2>
+      </div>
+      <div class="ranking-items">
+        <div id="ranking-products" class="row ranking-products">
+        </div>
+      </div>
+      <div class="row">
+        <div class="ml-auto mr-auto mt-10">
+          <a class="p-btn position-relative" href="">
+            <span>View More</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ranking area ends -->
+
+  <!-- pick up area ends -->
+  <div class="pick-up mt-60">
+    <div class="container-sp">
+      <div class="pick-up-title text-center">
+        <h2>Pick Up</h2>
+      </div>
+      <div class="pick-up-items">
+        <div id="pick-up-slider" class="pick-up-slider pl-65 pr-65">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pick up area ends -->
+
+  <!-- footer area starts-->
+  <footer class="footer-area mt-60 pt-30 pb-10">
+    <div class="container-sp">
+      <div class="big-logo mt-10">
+        <img src="img/logo/logo.svg">
+      </div>
+      <nav class="footer-nav mt-40">
+        <div class="first-line">
+          <div class="nav-item"><a href="https://www.rakuten.co.jp/inslady/info2.html"><i class="far fa-question-circle"></i><span>ご利用ガイド</span></a></div>
+          <div class="nav-item"><a href="https://www.rakuten.co.jp/inslady/info.html"><i class="far fa-building"></i><span>会社概要</span></a></div>
+          <div class="nav-item"><a href=""><i class="far fa-envelope"></i><span>お問い合わせ</span></a></div>
+        </div>
+        <div class="second-line">
+          <div class="nav-item"><a href=""><i class="fab fa-instagram"></i><span>Instagram</span></a></div>
+          <div class="nav-item"><a href="https://www.rakuten.ne.jp/gold/inslady/"><i class="far fa-registered"></i><span>店舗トップ</span></a></div>
+        </div>
+      </nav>
+      <div class="subscribe mt-30">
+        <div class="row">
+          <div class="ml-auto mr-auto">
+            <a class="p-btn position-relative" href="">
+              <span>メルマガ登録</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright mt-30">
+        <p>© Inslady All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area ends-->
 
   <!-- scripts -->
 

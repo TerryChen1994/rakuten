@@ -35,7 +35,7 @@
                     '<div class="arrival-item text-center">\n' +
                     '       <div class="arrival-img">\n' +
                     '           <a href="' + data["new_arrival_list"][i]["new_arrival_link"] + '">\n' +
-                    '               <img src="' + parseImgUrl(data["new_arrival_list"][i]["new_arrival_img"],data["new_arrival_img_size"]) + '" alt="test">\n' +
+                    '               <img src="' + data["new_arrival_list"][i]["new_arrival_img"] + '" alt="test">\n' +
                     '           </a>\n' +
                     '       </div>\n' +
                     '       <div class="arrival-details position-relative pt-5">\n' +
@@ -60,13 +60,11 @@
             const varOldPrice = "time_sale_old_price";
             const varNewPrice = "time_sale_new_price";
             const varImg = "time_sale_img";
-            const varDiscount = "time_sale_discount";
             const varName = "time_sale_name"
             document.getElementById(varLink).href = data["sale_list"][0]["time_sale_link_01"];
-            document.getElementById(varOldPrice).innerText = "¥" + parsePrice(data["sale_list"][0]["time_sale_old_price_01"]);
-            document.getElementById(varNewPrice).innerText = "¥" + parsePrice(data["sale_list"][0]["time_sale_new_price_01"]);
+            document.getElementById(varOldPrice).innerText = data["sale_list"][0]["time_sale_old_price_01"];
+            document.getElementById(varNewPrice).innerText = data["sale_list"][0]["time_sale_new_price_01"];
             document.getElementById(varImg).src = data["sale_list"][0]["time_sale_img_01"];
-            document.getElementById(varDiscount).innerText = data["sale_list"][0]["time_sale_discount_01"];
             document.getElementById(varName).innerText = data["sale_list"][0]["time_sale_name_01"];
             const end_time = data["sale_list"][0]["time_sale_end_time_01"];
             countdown(end_time);
@@ -76,26 +74,25 @@
 
         // ranking
         $.getJSON("json/ranking.json", function(data){
-            for (let i=0;i<8;i++){
+            let width = ($(window).width() - 20) * 0.47 + "px";
+            for (let i=0;i<6;i++){
                 $("#ranking-products").append(
-                    '<div class="col-xl-3  col-md-6 col-sm-6 grid-item pl-0 pr-0">\n' +
-                    '   <div class="ranking-items text-center mb-15">\n' +
+                    '   <div class="ranking-item text-center">\n' +
                     '       <div class="ranking-img">\n' +
                     '           <a href="' + data["ranking_list"][i]["ranking_link"] + '">\n' +
-                    '               <img src="' + parseImgUrl(data["ranking_list"][i]["ranking_img"],data["ranking_img_size"]) + '" alt="test">\n' +
+                    '               <img src="' + data["ranking_list"][i]["ranking_img"] + '" alt="test">\n' +
                     '           </a>\n' +
                     '       </div>\n' +
                     '       <div class="ranking-details position-relative pt-10">\n' +
                     '           <h5 style="margin-bottom: 0px !important;">\n' +
-                    '               <a id="ranking_name_link_01" href="' + data["ranking_list"][i]["ranking_link"] + '">\n' +
+                    '               <a style="width: ' + width + '" id="ranking_name_link_01" href="' + data["ranking_list"][i]["ranking_link"] + '">\n' +
                     '                   ' + data["ranking_list"][i]["ranking_name"] + '</a>\n' +
                     '           </h5>\n' +
                     '           <div class="price">\n' +
                     '               <span id="ranking_price_01">' + data["ranking_list"][i]["ranking_price"] + '</span>\n' +
                     '           </div>\n' +
                     '       </div>\n' +
-                    '   </div>\n' +
-                    '</div>'
+                    '   </div>'
                 );
 
             }
@@ -107,8 +104,7 @@
         $.getJSON("json/pick_up.json", function (data){
             for(let i=0;i<data["pick_up_list"].length;i++){
                 $("#pick-up-slider").append(
-                    '<div class="pick-up-item col-xl-4 col-lg-6 col-md-6 col-sm-12">\n' +
-                    '   <div class="text-center">\n' +
+                    '   <div class="pick-up-item text-center">\n' +
                     '       <div class="pick-up-item-img">\n' +
                     '           <a href="' + data["pick_up_list"][i]["pick_up_link"] + '">\n' +
                     '               <img src="' + data["pick_up_list"][i]["pick_up_img"] + '">\n' +
@@ -120,8 +116,7 @@
                     '               <span id="pick_up_price_01">' + data["pick_up_list"][i]["pick_up_price"] + '</span>\n' +
                     '           </div>\n' +
                     '       </div>\n' +
-                    '   </div>\n' +
-                    '</div>'
+                    '   </div>'
                 );
             }
             pick_up_slick_init();
@@ -134,14 +129,6 @@
         imgName = imgName + "?_ex=" + size + "x" + size;
         return imgName;
     };
-    function parsePrice(price){
-        let rprice = price.replace("円(税込)","");
-        return rprice;
-    };
-    function parseInterval(interval){
-        let rinterval = interval.slice(interval.indexOf("~") + 1);
-        return rinterval;
-    }
 
     function slider_area_slick_init()
     {
@@ -182,35 +169,12 @@
             infinite: true,
             autoplay: true,
             autoplaySpeed: 3000,
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 400,
             prevArrow: '<a class="slider-slick-prev"><i class="las la-arrow-left"></i></a>',
             nextArrow: '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>',
-            responsive: [
-                {
-                    breakpoint: 990,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-                },
-                {
-                    breakpoint: 660,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 330,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
+
         });
     }
 

@@ -4,25 +4,25 @@
       "pick_up_link": "https://item.rakuten.co.jp/inslady/",
       "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_01.jpg",
       "pick_up_name": "商品名1",
-      "pick_up_price": "1000円(税込)"
+      "pick_up_price": "¥1000"
     },
     {
       "pick_up_link": "https://item.rakuten.co.jp/inslady/",
       "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_02.jpg",
       "pick_up_name": "商品名2",
-      "pick_up_price": "2000円(税込)"
+      "pick_up_price": "¥2000"
     },
     {
       "pick_up_link": "https://item.rakuten.co.jp/inslady/",
       "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_03.jpg",
       "pick_up_name": "商品名3",
-      "pick_up_price": "3000円(税込)"
+      "pick_up_price": "¥3000"
     },
     {
       "pick_up_link": "https://item.rakuten.co.jp/inslady/",
       "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_04.jpg",
       "pick_up_name": "商品名4",
-      "pick_up_price": "4000円(税込)"
+      "pick_up_price": "¥4000"
     }
   ]
 }

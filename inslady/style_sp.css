@@ -163,16 +163,15 @@ a, h1, h2, h3, h4, h5, h6, span, p{
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
-    background-color: rgb(175, 176, 178);
-    height: 50px;
-    line-height: 50px;
-    width: 180px;
+    background-color: #f2eae6;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
     display: inline-block;
     text-align: center;
-    color: #f7f7f7;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 12px;
     letter-spacing: 2px;
+    border-radius: 20px;
 }
 
 .p-btn span {
@@ -186,7 +185,7 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 .p-btn span::after {
     content: '';
     position: absolute;
-    background-color: rgb(248,235,216);
+    background-color: #f2eae1;
     height: 100%;
     width: 0;
     top: 0;
@@ -195,6 +194,7 @@ a, h1, h2, h3, h4, h5, h6, span, p{
     visibility: hidden;
     transition: all .3s;
     z-index: -1;
+    border-radius: 20px;
 }
 
 .p-btn span::after {
@@ -362,11 +362,10 @@ input:-webkit-autofill{
 .header-sp .logo{
     text-align: center;
     flex-basis: 50%;
-    padding-top: 6px;
+    padding-top: 4px;
 }
 .header-sp .logo img{
-    width: 80px;
-    height: 24px;
+    width: 100px;
 }
 
 .nav-icons{
@@ -516,10 +515,10 @@ input:-webkit-autofill{
     font-family: 'Playfair Display', serif !important;
     font-size: 26px;
     font-weight: 600;
-    color: rgb(95,82,74)
+    color: rgb(95,82,74);
 }
 .time-sale-box{
-    padding: 30px 40px;
+    padding: 19px 40px 19px;
     background: rgb(246,246,246);
 }
 .time-sale-detail{
@@ -559,7 +558,7 @@ input:-webkit-autofill{
     margin-right: auto;
 }
 .time-sale-detail .cd-box div span:first-child{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Crimson Text', serif !important;
     font-size: 30px;
     display: inline;
 }
@@ -582,6 +581,21 @@ input:-webkit-autofill{
 }
 .time-sale-img img:hover{
     opacity: 0.8;
+}
+
+.time-sale .p-btn {
+    background: #f2eae6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 /* ============= 6. New Arrival Area ======================== */
@@ -621,40 +635,179 @@ input:-webkit-autofill{
     display: block;
 }
 .arrival-item .arrival-details .price span{
+    font-family: Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
     font-size: 13px;
     font-weight: 500;
 }
 
-/* ============= 11. ScrollTop Area =============== */
-
-.scrollTop{
-    position: fixed;
-    bottom: -100px;
-    right: 20px;
-    font-size: 40px;
-    color: rgb(175,175,178);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background: #ebe7e7;
+/* ============= 7. Ranking Area ======================== */
+.ranking-title{
+    width: 100%;
     text-align: center;
-    line-height: 50px;
+    margin-bottom: 50px;
+}
+.ranking .ranking-title h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74)
+}
+.ranking .ranking-items{
+    width: 100%;
+}
+.ranking-items .ranking-item{
+    margin: 0 1% 10px;
+    flex-basis: 48%;
+}
+
+.ranking-item .ranking-img img{
+    width: 100%;
+}
+.ranking-item .ranking-img img:hover{
+    opacity: 0.8;
+}
+.ranking-item .ranking-details h5{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+.ranking-item .ranking-details h5 a{
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+.ranking-item .ranking-details .price span{
+    font-family: Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ============= 7. Pick Up Area ======================== */
+.pick-up-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pick-up .pick-up-title h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74)
+}
+.pick-up .pick-up-items{
+    width: 100%;
+}
+.pick-up-items .pick-up-item{
+}
+
+.pick-up-item .pick-up-item-img img{
+    width: 100%;
+}
+.pick-up-item .pick-up-img img:hover{
+    opacity: 0.8;
+}
+.pick-up-item .pick-up-item-detail h5{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.pick-up-item .pick-up-item-detail .price span{
+    font-family: Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pick-up .slick-arrow {
+    font-size: 25px;
+    color: #ebe7e7;
     cursor: pointer;
-    z-index: 999999999;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    opacity: 0;
-    visibility: hidden;
+    position: absolute;
+    top: 33%;
+    z-index: 33;
 }
-.scrollTop:hover{
-    color: #f7f7f7;
-    background: rgb(191,191,191);
+.pick-up .slick-arrow:hover {
+    color: #f2eae1;
 }
-.scrollTop.active{
+.pick-up .slick-arrow.slider-slick-next {
+    right: 5%;
+}
+
+.pick-up .slick-arrow.slider-slick-prev {
+    left: 5%;
+}
+
+.pick-up .slick-dots {
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.pick-up .slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    max-width: 13px;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+    opacity: 0.8;
+}
+.pick-up .slick-dots .slick-active{
+    color: rgb(248,235,216);
     opacity: 1;
-    visibility: visible;
-    bottom: 60px;
+}
+.pick-up .slick-dots .pick-up-dot{
+    font-size: 12px;
+}
+
+/* ============= 8. Footer Area ======================== */
+.footer-area{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+}
+.footer-area .big-logo img{
+    width: 100px;
+}
+.footer-nav{
+    display: block;
+    padding: 0 30px;
+}
+.footer-nav .first-line, .second-line{
+    width: 100%;
+    display: flex;
+}
+.footer-nav .second-line{
+    padding: 0 40px;
+}
+.footer-nav .first-line .nav-item{
+    flex-basis: 33%;
+}
+.footer-nav .second-line .nav-item{
+    flex-basis: 50%;
+}
+.footer-nav .nav-item{
+    margin-bottom: 5px;
+}
+.footer-nav .nav-item i{
+    font-size: 12px;
+    font-weight: 510;
+}
+.footer-nav .nav-item span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-area .copyright{
+    text-align: center;
+    bottom: 0px;
+}
+.footer-area .copyright p{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.subscribe .p-btn{
+    border-radius: 0;
 }
