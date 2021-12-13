@@ -60,7 +60,9 @@
             const varOldPrice = "time_sale_old_price";
             const varNewPrice = "time_sale_new_price";
             const varImg = "time_sale_img";
-            const varName = "time_sale_name"
+            const varName = "time_sale_name";
+            const varBtn = "time_sale_btn";
+            document.getElementById(varBtn).href = data["sale_list"][0]["time_sale_link_01"];
             document.getElementById(varLink).href = data["sale_list"][0]["time_sale_link_01"];
             document.getElementById(varOldPrice).innerText = data["sale_list"][0]["time_sale_old_price_01"];
             document.getElementById(varNewPrice).innerText = data["sale_list"][0]["time_sale_new_price_01"];
