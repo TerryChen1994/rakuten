@@ -2,51 +2,51 @@
   "ranking_img_size" : 260,
   "ranking_list" : [
     {
-      "ranking_name": "なまえなんでもいい商品名4",
-      "ranking_price": "¥6600",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0045/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638887678.jpg"
+      "ranking_name": "セーター ニット カジュアル シンプル トップス",
+      "ranking_price": "¥3850",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0001/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1639463021.jpg"
     },
     {
-      "ranking_name" : "なまえなんでもいい商品名4" ,
-      "ranking_price" : "¥3000",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0034/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1638714733.jpg"
+      "ranking_name" : "スカート ヒョウ柄 秋冬 厚め スリットスカート" ,
+      "ranking_price" : "¥4400",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0006/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1637999672.jpg"
     },
     {
-      "ranking_name" : "なまえなんでもいい商品名4" ,
-      "ranking_price" : "¥4000",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0043/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638885381.jpg"
-    },
-    {
-      "ranking_name" : "なまえなんでもいい商品名5" ,
-      "ranking_price" : "¥5000",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0042/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638884279.jpg"
-    },
-    {
-      "ranking_name" : "なまえなんでもいい商品名6" ,
-      "ranking_price" : "¥6000",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0041/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1638881845.jpg"
-    },
-    {
-      "ranking_name" : "なまえなんでもいい商品名7" ,
-      "ranking_price" : "¥7000",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0037/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638790977.jpg"
-    },
-    {
-      "ranking_name": "なまえなんでもいい商品名8",
-      "ranking_price": "¥8000",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0039/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638801851.jpg"
-    },{
-      "ranking_name" : "なまえなんでもいい商品名4" ,
+      "ranking_name" : "シャツ ホワイト ロング 品質 シンプル バスト ニット" ,
       "ranking_price" : "¥6600",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0046/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638889206.jpg"
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0004/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1637927925.jpg"
+    },
+    {
+      "ranking_name" : "マーメイドスカート チューリップスカート" ,
+      "ranking_price" : "¥5200",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0036/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638789370.jpg"
+    },
+    {
+      "ranking_name" : "ウールクロス 無地 オフィス おしぁれ" ,
+      "ranking_price" : "¥6600",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0020/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/outer/compass1638282113.jpg"
+    },
+    {
+      "ranking_name" : "スカート ロングスカート Aライン" ,
+      "ranking_price" : "¥4400",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0005/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638154374.jpg"
+    },
+    {
+      "ranking_name": "2点セットアップ ニット セーター セットアップ",
+      "ranking_price": "¥5500",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0031/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638706078.jpg"
+    },{
+      "ranking_name" : "スウェット ブラウス トップス 裏起毛 長袖" ,
+      "ranking_price" : "¥3900",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0052/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638944312.jpg"
     }
   ]
 }
