@@ -2,19 +2,19 @@
 
   "banner_list" : [
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0002/",
+      "banner_link": "#",
       "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second.jpg"
     },
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0041/",
+      "banner_link": "#",
       "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second.jpg"
     },
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0041/",
+      "banner_link": "#",
       "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second.jpg"
     },
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0041/",
+      "banner_link": "#",
       "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second.jpg"
     }
   ]

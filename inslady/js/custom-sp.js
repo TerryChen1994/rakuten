@@ -7,7 +7,7 @@
                     '<div class="top-banner-item first-items position-relative">\n' +
                     '   <div class="top-banner-thumb overflow-hidden">\n' +
                     '       <a href="' + data["banner_list"][i]["banner_link"] + '">\n' +
-                    '           <img src="' + parseImgUrl(data["banner_list"][i]["banner_img"],data["banner_size"]) + '" alt="img1">\n' +
+                    '           <img src="' + data["banner_list"][i]["banner_img"] + '" alt="img1">\n' +
                     '       </a>\n' +
                     '   </div>\n' +
                     '</div>'
