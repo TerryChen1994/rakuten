@@ -51,6 +51,8 @@
             const varName = "time_sale_name";
             const varInterval = "time_sale_interval";
             const varImg = "time_sale_img";
+            const varBtn = "time_sale_btn";
+            document.getElementById(varBtn).href = data["sale_list"][0]["time_sale_link_01"];
             document.getElementById(varName).innerText = data["sale_list"][0]["time_sale_name_01"];
             document.getElementById(varLink).href = data["sale_list"][0]["time_sale_link_01"];
             document.getElementById(varOldPrice).innerText = data["sale_list"][0]["time_sale_old_price_01"];

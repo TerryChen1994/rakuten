@@ -69,7 +69,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: inherit;
+    color: rgb(95,82,74);
 
 }
 h1,
@@ -449,9 +449,9 @@ input:-webkit-autofill{
 }
 .top-banner .information h2{
     font-family: 'Playfair Display', serif !important;
+    color: rgb(95,82,74);
     font-size: 26px;
     font-weight: 600;
-    color: rgb(95,82,74)
 }
 
 .top-banner .top-banner-second{
