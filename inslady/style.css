@@ -249,6 +249,10 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 *::-moz-focus {
     outline: none;
 }
+input:-webkit-autofill{
+    transition: background-color 60000s ease-in-out 0s,
+    color 60000s ease-in-out 0s !important;
+}
 
 /* ============= 3 .Header Area ======================== */
 .header-1 .logo img{
@@ -414,6 +418,7 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 
 .nav-icons ul {
     float: right;
+    display: inline-flex;
 }
 
 .nav-icons ul li {
@@ -430,7 +435,24 @@ a, h1, h2, h3, h4, h5, h6, span, p{
     position: relative;
     cursor: pointer;
 }
-
+.search-box{
+    display: none;
+    margin-right: 5px;
+    float: left;
+}
+.search-box input{
+    width: 180px;
+    border: none;
+    background: none;
+    color: rgb(95,82,74);
+    border-bottom: 1px solid rgb(95,82,74);
+}
+.search-box button{
+    margin-left: 5px;
+    border: none;
+    text-align: right;
+    background: #ebe7e7;
+}
 .logo {
     z-index: 999;
     position: relative;
@@ -905,6 +927,10 @@ a, h1, h2, h3, h4, h5, h6, span, p{
         }
       }
 
+    .search-box input{
+        width: 140px;
+    }
+
     .header-2 .side-menu {
         width: 28%;
     }
@@ -1329,6 +1355,9 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 }
 
 @media only screen and (max-width:767.5px) {
+    .search-box input{
+        width: 80px;
+    }
     .header-1 .logo {
         text-align: center;
     }
@@ -1554,6 +1583,9 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 }
 
 @media (max-width:575.5px) {
+    .search-box input{
+        width: 100px;
+    }
     .mobile-menu {
         width: 54%;
         top: 32px;

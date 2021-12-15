@@ -13,37 +13,10 @@
         meanScreenWidth: "991"
     });
 
-    // Side Menu Sp
-    $('.sub-menu-category').show();
-
-    $('.sub-menu-trigger').on('click', function (){
-        let childI = $(this).find("i:first");
-        let childUL = $(this).parent().children("ul");
-        if(childUL.css("display") == "none"){
-            childUL.show();
-            childI.removeClass("fa fa-caret-down");
-            childI.addClass("fa fa-caret-up");
-        } else {
-            childUL.hide();
-            childI.removeClass("fa fa-caret-up");
-            childI.addClass("fa fa-caret-down");
-        }
-    })
-
-    // Open Menu
-    $('.menu-bar img, .side-menu-overlay').on('click', function () {
-        if($('.side-menu').hasClass('open-menu')){
-            $('.side-menu').removeClass('open-menu');
-            $('.side-menu-overlay').removeClass('open-menu');
-        } else {
-            $('.side-menu').addClass('open-menu');
-            $('.side-menu-overlay').addClass('open-menu');
-        }
-    })
 
     // SearchBox
     $('#searchIcon').on('click', function (){
-        let searchBox = $("#search-box");
+        let searchBox = $("#searchBox");
         let display = searchBox.css("display");
         if(display == "none"){
             searchBox.show();
