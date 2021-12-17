@@ -1,28 +1,28 @@
 {
   "pick_up_list" : [
     {
-      "pick_up_link": "https://item.rakuten.co.jp/inslady/",
-      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_01.jpg",
-      "pick_up_name": "商品名1",
-      "pick_up_price": "¥1000"
+      "pick_up_link": "https://item.rakuten.co.jp/inslady/ins0062/",
+      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/item/shoes/compass1639575088.jpg",
+      "pick_up_name": "ブーツ シューズ 靴 レディース",
+      "pick_up_price": "¥5500"
     },
     {
-      "pick_up_link": "https://item.rakuten.co.jp/inslady/",
-      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_02.jpg",
-      "pick_up_name": "商品名2",
-      "pick_up_price": "¥2000"
+      "pick_up_link": "https://item.rakuten.co.jp/inslady/ins0063/",
+      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/item/shoes/compass1639576820.jpg",
+      "pick_up_name": "スニーカー ブーツ シューズ 靴 レディース",
+      "pick_up_price": "¥5940"
     },
     {
-      "pick_up_link": "https://item.rakuten.co.jp/inslady/",
-      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_03.jpg",
-      "pick_up_name": "商品名3",
-      "pick_up_price": "¥3000"
+      "pick_up_link": "https://item.rakuten.co.jp/inslady/ins0064/",
+      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/item/goods/compass1639577203.jpg",
+      "pick_up_name": "ネックレス 金属アレルギー対応 レディース ファション レトロ",
+      "pick_up_price": "¥2700"
     },
     {
-      "pick_up_link": "https://item.rakuten.co.jp/inslady/",
-      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/pick_up/pick_up_04.jpg",
-      "pick_up_name": "商品名4",
-      "pick_up_price": "¥4000"
+      "pick_up_link": "https://item.rakuten.co.jp/inslady/ins0065//",
+      "pick_up_img": "https://image.rakuten.co.jp/inslady/cabinet/item/goods/compass1639577528.jpg",
+      "pick_up_name": "ピアス パール 金属アレルギー対応 ファション レトロ",
+      "pick_up_price": "¥2700"
     }
   ]
 }

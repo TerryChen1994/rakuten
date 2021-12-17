@@ -497,6 +497,12 @@ input:-webkit-autofill{
     opacity: 0.8;
 }
 
+.top-banner-item .second-items img,
+.top-banner-item .third-items img{
+    width: 470px !important;
+    height: 300px !important;
+}
+
 /* ================ 7. Arrival Area================ */
 
 .arrival-img img {

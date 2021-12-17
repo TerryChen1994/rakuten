@@ -2,34 +2,22 @@
   "ranking_img_size" : 260,
   "ranking_list" : [
     {
+      "ranking_name" : "スカート ヒョウ柄 秋冬 厚め スリットスカート" ,
+      "ranking_price" : "¥4400",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0006/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1637999672.jpg" 
+    },
+    {
       "ranking_name": "セーター ニット カジュアル シンプル トップス",
       "ranking_price": "¥3850",
       "ranking_link": "https://item.rakuten.co.jp/inslady/ins0001/",
       "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1639498068.jpg"
     },
     {
-      "ranking_name" : "スカート ヒョウ柄 秋冬 厚め スリットスカート" ,
-      "ranking_price" : "¥4400",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0006/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1637999672.jpg"
-    },
-    {
       "ranking_name" : "シャツ ホワイト ロング 品質 シンプル バスト ニット" ,
       "ranking_price" : "¥6600",
       "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0004/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1637927925.jpg"
-    },
-    {
-      "ranking_name" : "マーメイドスカート チューリップスカート" ,
-      "ranking_price" : "¥5200",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0036/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638789370.jpg"
-    },
-    {
-      "ranking_name" : "ウールクロス 無地 オフィス おしぁれ" ,
-      "ranking_price" : "¥6600",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0020/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/outer/compass1638282113.jpg"
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1637927963.jpg"
     },
     {
       "ranking_name" : "スカート ロングスカート Aライン" ,
@@ -38,15 +26,28 @@
       "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638154374.jpg"
     },
     {
-      "ranking_name": "2点セットアップ ニット セーター セットアップ",
+      "ranking_name" : "マーメイドスカート チューリップスカート" ,
+      "ranking_price" : "¥5200",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0036/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638789517.jpg"
+    },
+    {
+            "ranking_name": "2点セットアップ ニット セーター セットアップ",
       "ranking_price": "¥5500",
       "ranking_link": "https://item.rakuten.co.jp/inslady/ins0031/",
       "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638706078.jpg"
-    },{
+    },
+    {
+      "ranking_name": "アウター 人気 トップス ニブラウン ホワイト レディース ",
+      "ranking_price": "¥7150",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0032/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/outer/compass1638712488.jpg"
+    },
+    {
       "ranking_name" : "スウェット ブラウス トップス 裏起毛 長袖" ,
       "ranking_price" : "¥3900",
       "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0052/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638944312.jpg"
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638944300.jpg"
     }
   ]
 }
