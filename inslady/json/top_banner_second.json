@@ -2,16 +2,16 @@
 
   "banner_list" : [
     {
-      "banner_link": "#",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second_01.jpg"
+      "banner_link": "https://www.rakuten.co.jp/inslady/info2.html#shipping",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/banner_second_01.png"
     },
     {
-      "banner_link": "#",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second_01.jpg"
+      "banner_link": "https://www.rakuten.co.jp/inslady/info2.html#shipping",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/banner_second_01.png"
     },
     {
-      "banner_link": "#",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/resource/banner/banner_second_01.jpg"
+      "banner_link": "https://www.rakuten.co.jp/inslady/info2.html#shipping",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/banner_second_01.png"
     }
   ]
 }
