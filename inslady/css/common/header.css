@@ -361,12 +361,22 @@ input:-webkit-autofill{
 }
 .header-banner-item{
     margin-top: 10px;
-    flex: 0 0 33.33%;
     text-align: center;
-}
-.header-banner-item img{
-    width: 350px;
 }
 .header-banner-item img:hover{
     opacity: 0.8;
+}
+
+.item-quantity-3{
+    flex: 0 0 33.33%;
+}
+.item-quantity-3 img{
+    width: 350px;
+}
+
+.item-quantity-1{
+    flex: 0 0 100%;
+}
+.item-quantity-1 img{
+    width: 1100px;
 }
