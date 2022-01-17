@@ -16,7 +16,6 @@
   <!--    <link rel="stylesheet" href="../css/font-awesome.min.css">-->
   <!--    <link rel="stylesheet"  href="../css/default.css">-->
   <!--    <link rel="stylesheet"  href="../css/common/header.css">-->
-
 </head>
 <body>
 <header style="width: 1100px">
@@ -115,13 +114,19 @@
         <div class="nav-icons">
           <ul>
             <li>
-              <div class="search position-relative">
-                <span><i class="fas fa-search"></i></span>
-                <form action="#" class="search-form position-fixed">
-                  <div class="search-input ">
-                  </div>
+              <div id="searchBox" class="search-box" style="display: none">
+                <form method="get" action="https://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="EUC-JP">
+                  <input name="sv" value="6" type="hidden">
+                  <input name="sid" value="405506" type="hidden">
+                  <input name="su" value="inslady" type="hidden">
+                  <input name="sn" value="インスレディ" type="hidden">
+                  <input name="f" value="A" type="hidden">
+                  <input name="sitem" type="text" placeholder="キーワードを入力してください">
                 </form>
               </div>
+            </li>
+            <li>
+              <a id="searchIcon"><i class="fas fa-search"></i></a>
             </li>
             <li><a target="_top" href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=405506"><i class="fas fa-shopping-cart"></i></a></li>
           </ul>
@@ -177,5 +182,16 @@
     </div>
   </div>
 </header>
+<script>
+    let searchIcon = document.getElementById('searchIcon');
+    let searchBox = document.getElementById('searchBox');
+    searchIcon.onclick = function (){
+        if(searchBox.style.display == "none"){
+            searchBox.style.display = "block";
+        } else{
+            searchBox.style.display = "none";
+        }
+    };
+</script>
 </body>
 </html>
