@@ -161,6 +161,10 @@ input:-webkit-autofill{
     cursor: pointer;
     flex-basis: 20%;
 }
+.header-container .logo img{
+    width: 102px;
+    height: 30px;
+}
 
 .header-container .menu{
     flex-basis: 55%;
