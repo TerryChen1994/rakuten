@@ -487,6 +487,11 @@ input:-webkit-autofill{
 }
 
 /* ==========5. Top Banner Area========== */
+.top-banner-second{
+    padding: 0 !important;
+    text-align: center;
+}
+
 .top-banner-area .slider-area{
     padding: 0 23px;
 }

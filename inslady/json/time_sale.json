@@ -2,11 +2,11 @@
   "sale_img_size" : 350,
   "sale_list" : [
     {
-      "time_sale_name_01": "「期間限定」ワンピース 秋冬 きれいめ 長袖 ニット ワンピ ブラック",
+      "time_sale_name_01": "「期間限定」ワンピース 秋冬",
       "time_sale_old_price_01": "¥5600",
       "time_sale_new_price_01" : "¥3600",
-      "time_sale_end_time_01" : "25 December 2021 23:59:59",
-      "time_sale_interval_01" : "期間限定 : 12月25日 23:59まで",
+      "time_sale_end_time_01" : "31 January 2022 23:59:59",
+      "time_sale_interval_01" : "期間限定 : 1月31日 23:59まで",
       "time_sale_img_01" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1638199100.jpg",
       "time_sale_link_01" : "https://item.rakuten.co.jp/inslady/copy-ins0017/"
     }
