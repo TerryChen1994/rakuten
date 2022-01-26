@@ -261,7 +261,7 @@ input:-webkit-autofill{
 .header-1 {
     text-align: center;
     display: block;
-    height: 220px;
+    height: 208px;
     width: 100%;
     /*position: fixed;*/
     z-index: 44;
@@ -274,6 +274,10 @@ input:-webkit-autofill{
 .header-row{
     width: 100%;
     display: block;
+}
+.header-white-row{
+    background-color: white;
+    border-top: 1px solid #868f96
 }
 
 .header-logo{
@@ -351,7 +355,7 @@ input:-webkit-autofill{
 
 .header-nav-bar{
     width: 1200px;
-    padding: 20px 40px;
+    padding: 18px 40px;
     display: inline-flex;
 }
 
@@ -363,6 +367,9 @@ input:-webkit-autofill{
 .menu-list{
     width: 100%;
     display: inline-flex;
+}
+.menu-item{
+    border-left: solid 1px #868f96;
 }
 
 .main-menu ul li {
@@ -465,43 +472,72 @@ input:-webkit-autofill{
 
 }
 
-.main-menu .sub-menu.menu-level {
+/* menu-category */
+.main-menu .sub-menu.menu-category {
     width: 750px;
     height: 260px;
     text-align: left;
     left: 50px;
 }
-
-.main-menu .sub-menu.menu-level li {
+.main-menu .sub-menu.menu-category li {
     width: 20%;
     float: left;
 }
-
-.main-menu .sub-menu.menu-level .sub-menu {
+.main-menu .sub-menu.menu-category .sub-menu {
     box-shadow: none;
     background: none;
     padding-left: 0;
     padding-top: 20px;
 
 }
-
-.main-menu .sub-menu.menu-level .sub-menu li a {
+.main-menu .sub-menu.menu-category .sub-menu li a {
     margin-left: 5px;
     color: #625f5f;
 }
-
-.main-menu .sub-menu.menu-level .sub-menu li {
+.main-menu .sub-menu.menu-category .sub-menu li {
     float: none;
     width: 100%;
 }
-
-.main-menu .sub-menu.menu-level h4 {
+.main-menu .sub-menu.menu-category h4 {
     font-size: 12px;
     font-weight: 700;
     margin-top: 10px;
     text-transform: uppercase;
 }
 
+/* menu-goods */
+.main-menu .sub-menu.menu-goods {
+    width: 160px;
+    height: 315px;
+    text-align: left;
+    left: 50px;
+    padding-top: 0px !important;
+}
+.main-menu .sub-menu.menu-goods li {
+    width: 20%;
+    float: left;
+}
+.main-menu .sub-menu.menu-goods .sub-menu {
+    box-shadow: none;
+    background: none;
+    padding-left: 0px;
+    padding-top: 0px !important;
+
+}
+.main-menu .sub-menu.menu-goods .sub-menu li a {
+    margin-left: 5px;
+    color: #625f5f;
+}
+.main-menu .sub-menu.menu-goods .sub-menu li {
+    float: none;
+    width: 100%;
+}
+.main-menu .sub-menu.menu-goods h4 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px !important;
+    text-transform: uppercase;
+}
 /* ============= 4. Slider Area ======================== */
 .slider-area {
 }
