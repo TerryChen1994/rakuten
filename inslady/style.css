@@ -252,32 +252,132 @@ a, h1, h2, h3, h4, h5, h6, span, p{
 input:-webkit-autofill{
     /*transition: background-color 60000s ease-in-out 0s,*/
     /*color 60000s ease-in-out 0s !important;*/
-    -webkit-box-shadow: 0 0 0 1000px #ebe7e7 inset;
-    -moz-box-shadow: 0 0 0 1000px #ebe7e7 inset;
-    box-shadow: 0 0 0 1000px #ebe7e7 inset;
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -moz-box-shadow: 0 0 0 1000px white inset;
+    box-shadow: 0 0 0 1000px white inset;
 }
 
 /* ============= 3 .Header Area ======================== */
-.header-1 .logo img{
-    width: 102px;
-    height: 30px;
+.header-1 {
+    text-align: center;
+    display: block;
+    height: 220px;
+    width: 100%;
+    /*position: fixed;*/
+    z-index: 44;
+    background-image: linear-gradient(220deg, #fdfcfb 0%, #f2eae6 80%)
 }
+.header-1.sticky {
+    background-image: linear-gradient(220deg, #fdfcfb 0%, #f2eae6 80%)
+
+}
+.header-row{
+    width: 100%;
+    display: block;
+}
+
+.header-logo{
+    width: 1200px;
+    padding: 20px 30px;
+    display: inline-flex;
+}
+.logo{
+
+}
+.logo img{
+    width: 153px;
+    height: 45px;
+}
+
+.nav-bar{
+    margin: auto 0 auto auto;
+}
+.nav-bar-item{
+    display: inline-block;
+    margin: 0 5px;
+}
+.nav-bar-item i,a{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.header-search-bar{
+    display: inline-flex;
+    width: 1200px;
+    padding: 15px 40px;
+}
+.search-box{
+    display: block;
+    float: left;
+}
+.search-box input{
+    width: 260px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    text-indent: 10px;
+    color: rgb(95,82,74);
+    padding-right: 38px;
+}
+.search-box button{
+    margin-left: -35px;
+    border: none;
+    background: none;
+}
+.search-box i{
+    color: rgb(95,82,74);
+}
+
+.keyword_box{
+    float: left;
+    height: 30px;
+    margin-left: 40px;
+}
+.keyword_box ul{
+    display: inline-flex;
+}
+.keyword_item{
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.keyword_item:hover{
+    background-color: #ebe7e7;
+    color: white;
+}
+
+.header-nav-bar{
+    width: 1200px;
+    padding: 20px 40px;
+    display: inline-flex;
+}
+
+
 .main-menu{
     font-family: 'BIZ UDPGothic', sans-serif;
 }
+
+.menu-list{
+    width: 100%;
+    display: inline-flex;
+}
+
 .main-menu ul li {
     display: inline-block;
     position: relative;
+    width: 16.6%;
 }
 
-.main-menu ul li a,
-.main-menu ul li> span {
+.main-menu ul li a{
     color: rgb(95,82,74);
-    font-weight: 550;
+    font-weight: 600;
     display: inline-block;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: .12em;
+    letter-spacing: .15em;
     position: relative;
     margin: 0 20px;
     cursor: pointer;
@@ -287,15 +387,14 @@ input:-webkit-autofill{
     color: rgb(95,82,74);
 }
 
+.sub-menu-main-title {
+    font-size: 14px !important;
+    margin: 8px 0 5px 2px !important;
+}
 .sub-menu-sub-title {
     font-size: 13px !important;
     margin: 3px 0 3px 2px !important;
     font-weight: 500 !important;
-}
-
-.sub-menu-main-title {
-    font-size: 14px !important;
-    margin: 8px 0 5px 2px !important;
 }
 
 .main-menu ul li a:hover {
@@ -369,6 +468,8 @@ input:-webkit-autofill{
 .main-menu .sub-menu.menu-level {
     width: 750px;
     height: 260px;
+    text-align: left;
+    left: 50px;
 }
 
 .main-menu .sub-menu.menu-level li {
@@ -381,19 +482,6 @@ input:-webkit-autofill{
     background: none;
     padding-left: 0;
     padding-top: 20px;
-
-}
-
-.header-1 {
-    height: 75px;
-    width: 100%;
-    position: fixed;
-    z-index: 44;
-    background: #ebe7e7;
-}
-
-.header-1.sticky {
-    background: #ebe7e7;
 
 }
 
@@ -412,54 +500,6 @@ input:-webkit-autofill{
     font-weight: 700;
     margin-top: 10px;
     text-transform: uppercase;
-}
-
-.nav-icons {
-    position: relative;
-    z-index: 999;
-}
-
-.nav-icons ul {
-    float: right;
-    display: inline-flex;
-}
-
-.nav-icons ul li {
-    display: inline-block;
-
-}
-
-.nav-icons ul li a,
-.nav-icons ul li .search >span ,
-.nav-icons ul li> span{
-    font-size: 16px;
-    color: #000;
-    padding: 0 6px;
-    position: relative;
-    cursor: pointer;
-}
-.search-box{
-    display: none;
-    margin-right: 5px;
-    float: left;
-}
-.search-box input{
-    width: 180px;
-    border: none;
-    background: none;
-    color: rgb(95,82,74);
-    border-bottom: 1px solid rgb(95,82,74);
-}
-.search-box button{
-    margin-left: 5px;
-    border: none;
-    text-align: right;
-    background: #ebe7e7;
-}
-.logo {
-    z-index: 999;
-    position: relative;
-    cursor: pointer;
 }
 
 /* ============= 4. Slider Area ======================== */

@@ -1,6 +1,17 @@
 (function ($) {
     "use strict";
     $(document).ready(function(){
+        $.getJSON("json/keyword.json", function(data){
+            for(let i=0;i<data["keyword_list"].length;i++){
+                $("#keywordList").append(
+                    '<li class="keyword_item">\n' +
+                    '   <a href="' + data["keyword_list"][i]["keyword_link"] + '">' +
+                    '       #' + data["keyword_list"][i]["keyword_text"] + '' +
+                    '   </a>\n' +
+                    '</li>'
+                );
+            };
+        });
         $.getJSON("json/top_banner_first.json", function(data){
             for(let i=0;i<data["banner_list"].length;i++){
                 $("#top-banner-first").append(
