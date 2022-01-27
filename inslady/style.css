@@ -261,7 +261,7 @@ input:-webkit-autofill{
 .header-1 {
     text-align: center;
     display: block;
-    height: 208px;
+    height: 202px;
     width: 100%;
     /*position: fixed;*/
     z-index: 44;
@@ -355,7 +355,7 @@ input:-webkit-autofill{
 
 .header-nav-bar{
     width: 1200px;
-    padding: 18px 40px;
+    padding: 15px 40px;
     display: inline-flex;
 }
 
