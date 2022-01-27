@@ -1,0 +1,28 @@
+{
+  "banner_list" : [
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000047/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/notice.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000002/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/1.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/ins0051/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/2.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000011/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/3.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000003/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/4.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000015/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/5.png"
+    }
+  ]
+}
