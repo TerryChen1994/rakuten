@@ -6,6 +6,12 @@ table{
     width: 810px !important;
 }
 
+#item-cont-re .img-box{
+    width: 740px !important;
+    margin: 0 0 15px 0 !important;
+    text-align: left !important;
+}
+
 #risFil{
     width: 810px !important;
 }
