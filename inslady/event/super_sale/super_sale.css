@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+/* banner */
+.banner{
+    min-width: 760px;
+}
+.banner img{
+    width: 100%;
+}
+
+/* coupon */
+.coupon{
+    display: inline-flex;
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.coupon-div{
+    flex-basis: 15%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+.coupon-div img{
+    width: 100%;
+}
+
+/* feature */
+.feature{
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+/* item */
+.items{
+    box-sizing: border-box;
+    display: inline-flex;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+.item-div{
+    width: 22%;
+    min-width: 200px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.item-div img{
+    width: 100%;
+    vertical-align: middle;
+}
