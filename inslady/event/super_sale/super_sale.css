@@ -3,7 +3,10 @@ body{
     width: 100%;
 }
 .container{
-    width: 100%;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Yu Mincho", Serif;
 }
 
 /* banner */
@@ -18,7 +21,6 @@ body{
 .coupon{
     display: inline-flex;
     width: 100%;
-    padding: 0 80px;
     box-sizing: border-box;
 }
 .coupon-div{
@@ -33,24 +35,61 @@ body{
 /* feature */
 .feature{
     box-sizing: border-box;
-    padding: 0 80px;
 }
 
 /* item */
 .items{
     box-sizing: border-box;
     display: inline-flex;
-    padding: 0 80px;
     flex-wrap: wrap;
+    width: 100%;
 }
 .item-div{
-    width: 22%;
-    min-width: 200px;
-    padding: 0 10px;
+    width: 25%;
+    padding: 5px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #AAAAAA;
 }
-
 .item-div img{
     width: 100%;
     vertical-align: middle;
+}
+.item-origin-price{
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 3px dotted #AAAAAA;
+}
+.item-sale-price{
+    text-align: center;
+    color: #CC0000;
+    margin-top: 10px;
+}
+.item-sale-price-title{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+.item-sale-price-price{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bolder;
+    display: block;
+}
+.item-purchase{
+    text-align: center;
+}
+.item-purchase-link{
+    background-color: #f2eae6;
+    height: 30px;
+    line-height: 30px;
+}
+.item-purchase-button{
+    color: rgb(95,82,74);
+
+    line-height: 30px;
 }
