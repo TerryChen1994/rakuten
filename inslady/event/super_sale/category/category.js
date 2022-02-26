@@ -1,7 +1,9 @@
 (function ($) {
     "use strict";
     $(document).ready(function() {
-        $.getJSON("json/super_sale.json", function(data){
+        let category = document.getElementById("category").innerText;
+        let json = "../json/"+category+".json";
+        $.getJSON(json, function(data){
             for(let i=0;i<data["item_list"].length;i++){
                 $("#items").append(
                     '<div class="item-div-box">\n' +
