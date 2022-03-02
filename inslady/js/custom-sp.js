@@ -19,6 +19,7 @@
             for(let i=0;i<data["banner_list"].length;i++){
                 let banner_link = null;
                 if(i != 1){
+                    console.log(i);
                     banner_link = "https://www.rakuten.ne.jp/gold/inslady/event/super_sale/sp_super_sale.html";
                 } else {
                     banner_link = data["banner_list"][i]["banner_link"];
