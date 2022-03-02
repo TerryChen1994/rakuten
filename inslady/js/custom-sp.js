@@ -17,9 +17,15 @@
         });
         $.getJSON("json/top_banner_second.json", function(data){
             for(let i=0;i<data["banner_list"].length;i++){
+                let banner_link = null;
+                if(i != 1){
+                    banner_link = "https://www.rakuten.ne.jp/gold/inslady/event/super_sale/sp_super_sale.html";
+                } else {
+                    banner_link = data["banner_list"][i]["banner_link"];
+                }
                 $("#top-banner-second").append(
                     '<div class="top-banner-second-item position-relative">\n' +
-                    '   <a href="' + data["banner_list"][i]["banner_link"] + '">\n' +
+                    '   <a href="' + banner_link + '">\n' +
                     '       <img src="' + data["banner_list"][i]["banner_img"] + '" alt="img1">\n' +
                     '   </a>\n' +
                     '</div>'
