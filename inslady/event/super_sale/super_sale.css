@@ -22,10 +22,22 @@ body{
 .coupon{
     display: inline-flex;
     width: 100%;
+    flex-wrap: wrap;
     box-sizing: border-box;
 }
+.coupon-big-div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.coupon-big-div img{
+    width: 100%;
+}
+.coupon-big-div img:hover{
+    opacity: 0.8;
+}
 .coupon-div{
-    flex-basis: 15%;
+    width: 15%;
     min-width: 100px;
     margin: 0 auto;
 }

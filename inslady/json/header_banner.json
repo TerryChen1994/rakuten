@@ -1,6 +1,10 @@
 {
   "banner_list" : [
     {
+      "banner_link": "https://www.rakuten.ne.jp/gold/inslady/event/super_sale/super_sale.html",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/header_banner_super_sale.png"
+    },
+    {
       "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000047/",
       "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/notice.png"
     },
