@@ -149,6 +149,7 @@ p {
     padding-right: 15px;
     line-height: 30px;
     position: relative;
+    background: #F4F4F4;
 }
 .category-dt span{
     text-align: left;
@@ -164,6 +165,7 @@ p {
 }
 .category-dd{
     display: block;
+    background: #FCFCFC;
 }
 .category-dd li{
     line-height: 28px;
@@ -208,6 +210,7 @@ p {
     padding-right: 15px;
     line-height: 30px;
     position: relative;
+    background: #F4F4F4;
 }
 .price-selector-dt span{
     text-align: left;
@@ -223,6 +226,7 @@ p {
 }
 .price-selector-dd{
     display: block;
+    background: #FCFCFC;
 }
 .price-selector-dd li{
     line-height: 28px;

@@ -30,3 +30,34 @@ span.inventory_choice_name{
 td.inventory{
     border: 1px solid lightgray !important;
 }
+
+#risFil .categoryWindowImg{
+    width: 230px !important;
+    height: 230px !important;
+}
+
+#risFil .categoryWindowImg img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#risFil .category_itemnamelink{
+    display: block !important;
+    overflow: hidden !important;
+    height: 60px !important;
+    color: rgb(95,82,74) !important;
+}
+
+#risFil .category_itemnamelink:hover {
+    overflow: visible !important;
+    height: auto !important;
+}
+
+#risFil .category_itemprice{
+    color: #bf0000 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+#risFil .category_itemtaxpostage{
+    font-size: 12px !important;
+}
