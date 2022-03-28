@@ -607,7 +607,7 @@ input:-webkit-autofill{
 }
 
 .arrival-details .price span {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: rgb(95,82,74);
     font-weight: 500;
@@ -766,7 +766,7 @@ input:-webkit-autofill{
 }
 
 .ranking-details .price span {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: rgb(95,82,74);
     font-weight: 500;
@@ -783,6 +783,28 @@ input:-webkit-autofill{
 }
 .sale-items .p-btn span:hover{
     color: rgb(175,176,178) !important;
+}
+
+.ranking-box-content-item-hierarchy{
+    text-align: left;
+    width: 100%;
+    padding-left: 15px;
+    margin-bottom: 2px;
+}
+.ranking-box-content-item-hierarchy-crown{
+    vertical-align: bottom;
+    float: left;
+    width: 18px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.ranking-box-content-item-hierarchy-number{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 15px;
+    margin-left: 4px;
+    letter-spacing: 1px;
+    color: #dec267;
 }
 
 /* =============10. Pick Up Area============= */
@@ -809,7 +831,7 @@ input:-webkit-autofill{
 }
 
 .pick-up-item-detail .price span {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: rgb(95,82,74);
     font-weight: 500;
