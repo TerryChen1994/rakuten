@@ -25,7 +25,7 @@
 
 
 .category-ranking-content-box{
-    margin-top: 10px;
+    margin-top: 5px;
     width: 100%;
     display: inline-block;
     margin-left: 5px;
@@ -79,7 +79,7 @@
 .category-ranking-content-price{
     display: block;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     color: #cc0000;
     text-align: left;
 }
