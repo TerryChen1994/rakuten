@@ -1,0 +1,85 @@
+.category-ranking-category-box{
+    display: block;
+    width: 100%;
+    font-family: "Yu Mincho", serif;
+}
+
+
+.category-ranking-content-title{
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    color: #cc0000;
+    text-align: left;
+    background: #fff;
+    font-weight: bold;
+}
+.category-ranking-content-title img{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    vertical-align: bottom;
+    margin-bottom: 5px;
+}
+
+
+.category-ranking-content-box{
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.category-ranking-content-content-box{
+    width: calc(20% - 9px);
+    display: inline-block;
+    margin-right: 5px;
+}
+.category-ranking-content-content-box a{
+    text-decoration: none;
+}
+.category-ranking-content-hierarchy{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cc0000;
+    text-align: left;
+    padding-left: 3px;
+}
+.category-ranking-content-hierarchy img{
+    display: inline-block !important;
+    width: 20px !important;
+    margin-right: 5px;
+    vertical-align: bottom;
+    margin-bottom: 7px;
+}
+.category-ranking-content-content-box img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.category-ranking-content-content-box img:hover{
+    opacity: 0.8;
+}
+.category-ranking-content-name{
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+.category-ranking-content-delivery{
+    border: 1px solid #cc0000;
+    color: #cc0000;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px
+}
+.category-ranking-content-price{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #cc0000;
+    text-align: left;
+}

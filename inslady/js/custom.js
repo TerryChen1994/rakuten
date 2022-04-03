@@ -97,10 +97,26 @@
 
         // ranking
         $.getJSON("json/ranking.json", function(data){
+            let crown = '';
             for (let i=0;i<8;i++){
+                if(i < 3){
+                    crown = '<img class="ranking-box-content-item-hierarchy-crown" src="img/icon/replace_crown.svg">\n';
+                    switch (i) {
+                        case 0: crown = crown.replace('replace_crown','goldcrown');break;
+                        case 1: crown = crown.replace('replace_crown','silvercrown');break;
+                        case 2: crown = crown.replace('replace_crown','brasscrown');break;
+                    }
+                } else{
+                    crown = '';
+                }
+                let hierarchy = '<div class="ranking-box-content-item-hierarchy">\n' +
+                                    crown +
+                                '   <span class="ranking-box-content-item-hierarchy-number">No.' + (i+1) + '</span>\n' +
+                                '</div>\n';
                 $("#ranking-products").append(
                     '<div class="col-xl-3  col-md-6 col-sm-6 grid-item pl-0 pr-0">\n' +
                     '   <div class="ranking-items text-center mb-15">\n' +
+                            hierarchy +
                     '       <div class="ranking-img">\n' +
                     '           <a href="' + data["ranking_list"][i]["ranking_link"] + '">\n' +
                     '               <img src="' + parseImgUrl(data["ranking_list"][i]["ranking_img"],data["ranking_img_size"]) + '" alt="test">\n' +

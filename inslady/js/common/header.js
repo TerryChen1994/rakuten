@@ -32,7 +32,7 @@
             arrows: true,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 2500,
             speed: 400,
             prevArrow: '<a class="slider-slick-prev"><i class="fas fa-chevron-left"></i></a>',
             nextArrow: '<a class="slider-slick-next"><i class="fas fa-chevron-right"></i></a>'
