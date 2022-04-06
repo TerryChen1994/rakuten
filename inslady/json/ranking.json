@@ -2,52 +2,52 @@
   "ranking_img_size" : 260,
   "ranking_list" : [
     {
-      "ranking_name" : "スカート ヒョウ柄 秋冬 厚め スリットスカート" ,
-      "ranking_price" : "¥4400",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0006/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1637999672.jpg" 
+      "ranking_name" : "ショルダーバッグ バック レディース ハンドバッグ" ,
+      "ranking_price" : "¥17600",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0089/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bag/0089z.jpg"
     },
     {
-      "ranking_name": "セーター ニット カジュアル シンプル トップス",
-      "ranking_price": "¥3850",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0001/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1639498068.jpg"
+      "ranking_name": "ハンドバッグ 軽量 通勤 防水 牛革",
+      "ranking_price": "¥13200",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0090/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/bag/00900001.jpg"
     },
     {
-      "ranking_name" : "シャツ ホワイト ロング 品質 シンプル バスト ニット" ,
+      "ranking_name" : "ワンピース シンプル 夏 春 秋 レディース 流行 可愛い" ,
       "ranking_price" : "¥6600",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0041/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1638881845.jpg"
+    },
+    {
+      "ranking_name" : "バッグ レディース 斜めがけ 牛革 レザーバッグ おしゃれ" ,
+      "ranking_price" : "¥13200",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0091/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bag/0091001.jpg"
+    },
+    {
+      "ranking_name" : "チュニック ベスト シャツ セットアップ" ,
+      "ranking_price" : "¥7700",
       "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0004/",
       "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1637927925.jpg"
     },
     {
-      "ranking_name" : "スカート ロングスカート Aライン" ,
-      "ranking_price" : "¥4400",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0005/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638154374.jpg"
+      "ranking_name": "ワンピース 長袖 ロング丈 春 秋 夏 スリットワンピース",
+      "ranking_price": "¥5800",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0093/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/009313.jpg"
     },
     {
-      "ranking_name" : "マーメイドスカート チューリップスカート" ,
-      "ranking_price" : "¥5200",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0036/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bottoms/compass1638789485.jpg"
+      "ranking_name": "ショルダーバッグ レディース チェック柄 おしゃれ",
+      "ranking_price": "¥13200",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0092/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/bag/00920001.jpg"
     },
     {
-            "ranking_name": "2点セットアップ ニット セーター セットアップ",
-      "ranking_price": "¥5500",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0031/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638706078.jpg"
-    },
-    {
-      "ranking_name": "アウター 人気 トップス ニブラウン ホワイト レディース ",
-      "ranking_price": "¥7150",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0032/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/outer/compass1638712488.jpg"
-    },
-    {
-      "ranking_name" : "スウェット ブラウス トップス 裏起毛 長袖" ,
-      "ranking_price" : "¥3900",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0052/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638944300.jpg"
+      "ranking_name" : "ワンピース ワンピ 春 夏 クルーネック 通気性" ,
+      "ranking_price" : "¥5600",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0087/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1642483693.jpg"
     }
   ]
 }
