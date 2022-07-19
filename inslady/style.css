@@ -567,6 +567,9 @@ input:-webkit-autofill{
     padding: 0 !important;
     text-align: center;
 }
+.top-banner-area-img{
+    width: 100%;
+}
 
 .top-banner-area .slider-area{
     padding: 0 23px;
