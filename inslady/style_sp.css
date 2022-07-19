@@ -442,8 +442,8 @@ input:-webkit-autofill{
 }
 
 .top-banner .information{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     width: 100%;
     text-align: center;
 }
@@ -458,6 +458,41 @@ input:-webkit-autofill{
     width: 100%;
     overflow: hidden;
 }
+
+.top-banner-information{
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.top-banner-information a{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.top-banner-information span{
+    color: #da0000;
+    box-sizing: border-box;
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+    padding: 0 1% 0 4%;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: left;
+    position: relative;
+}
+.top-banner-information span:before{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 14px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    background: #da0000;
+}
+
 .top-banner-second .top-banner-second-item{
     margin: 0 5px;
     width: 100%;
@@ -475,6 +510,45 @@ input:-webkit-autofill{
 .top-banner-second-item.slick-center:hover
 {
     opacity: 0.8;
+}
+
+/* ============= Category Banner ======================= */
+.category-banner{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.category-banner-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.category-banner-title h2{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(95,82,74);
+}
+.category-banner-line{
+    margin-bottom: 10px;
+    letter-spacing: -1em;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.category-banner-img-l{
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 1.5%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.category-banner-img-r{
+    width: 50%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 /* ============= 4. Slider Area ======================== */
@@ -509,7 +583,7 @@ input:-webkit-autofill{
 .time-sale .time-sale-title{
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .time-sale .time-sale-title h2{
     font-family: 'Playfair Display', serif !important;
@@ -602,7 +676,7 @@ input:-webkit-autofill{
 .new-arrival-title{
     width: 100%;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .new-arrival .new-arrival-title h2{
     font-family: 'Playfair Display', serif !important;
@@ -644,7 +718,7 @@ input:-webkit-autofill{
 .ranking-title{
     width: 100%;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .ranking .ranking-title h2{
     font-family: 'Playfair Display', serif !important;
@@ -686,7 +760,7 @@ input:-webkit-autofill{
 .pick-up-title{
     width: 100%;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .pick-up .pick-up-title h2{
     font-family: 'Playfair Display', serif !important;

@@ -26,7 +26,7 @@
                     '  <span class="category-ranking-content-hierarchy">\n' +
                             crown +
                     '       No.' + (i + 1) +  '</span>\n' +
-                    '    <a href="https://item.rakuten.co.jp/inslady/' + data['bag_list'][i]['item_id'] + '">\n' +
+                    '    <a target="_top"  href="https://item.rakuten.co.jp/inslady/' + data['bag_list'][i]['item_id'] + '">\n' +
                     '      <img src="' + data['bag_list'][i]['item_img'] + '">\n' +
                     '      <span class="category-ranking-content-name">' + data['bag_list'][i]['item_name'] + '</span>\n' +
                     '       <span class="category-ranking-content-delivery">送料無料</span>\n' +
@@ -59,7 +59,7 @@
                     '  <span class="category-ranking-content-hierarchy">\n' +
                     crown +
                     '       No.' + (i + 1) +  '</span>\n' +
-                    '    <a href="https://item.rakuten.co.jp/inslady/' + data['tops_list'][i]['item_id'] + '">\n' +
+                    '    <a target="_top"  href="https://item.rakuten.co.jp/inslady/' + data['tops_list'][i]['item_id'] + '">\n' +
                     '      <img src="' + data['tops_list'][i]['item_img'] + '">\n' +
                     '      <span class="category-ranking-content-name">' + data['tops_list'][i]['item_name'] + '</span>\n' +
                     '       <span class="category-ranking-content-delivery">送料無料</span>\n' +
@@ -92,7 +92,7 @@
                     '  <span class="category-ranking-content-hierarchy">\n' +
                     crown +
                     '       No.' + (i + 1) +  '</span>\n' +
-                    '    <a href="https://item.rakuten.co.jp/inslady/' + data['onepiece_list'][i]['item_id'] + '">\n' +
+                    '    <a target="_top"  href="https://item.rakuten.co.jp/inslady/' + data['onepiece_list'][i]['item_id'] + '">\n' +
                     '      <img src="' + data['onepiece_list'][i]['item_img'] + '">\n' +
                     '      <span class="category-ranking-content-name">' + data['onepiece_list'][i]['item_name'] + '</span>\n' +
                     '       <span class="category-ranking-content-delivery">送料無料</span>\n' +

@@ -1,0 +1,186 @@
+/*===================== 1. Theme default css ====================*/
+body {
+    font-family: 'Yu Mincho', Serif;
+    font-weight: bold;
+    color: rgb(95,82,74);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+a, h1, h2, h3, h4, h5, h6, span, p{
+    color: rgb(95,82,74);
+    text-decoration: none;
+}
+
+.p-btn {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: #f2eae6;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.p-btn span {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 101%;
+}
+
+.p-btn span::before,
+.p-btn span::after {
+    content: '';
+    position: absolute;
+    background-color: #f2eae1;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.p-btn span::after {
+    right: 50%;
+
+}
+
+.p-btn:hover span::before {
+    opacity: 1;
+    visibility: visible;
+    width: 50%;
+    left: 0;
+}
+
+.p-btn:hover span::after {
+    opacity: 1;
+    visibility: visible;
+    width: 50%;
+    right: 0;
+}
+
+/* pseudo classes */
+*::-moz-selection {
+    background: rgb(51, 101, 228);
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: rgb(51, 101, 228);
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #a1a1a1;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+*::placeholder {
+    color:#a1a1a1;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+*::focus {
+    outline: none;
+}
+
+*::-moz-focus {
+    outline: none;
+}
+
+input:-webkit-autofill{
+    transition: background-color 60000s ease-in-out 0s,
+    color 60000s ease-in-out 0s !important;
+}
+
+
+
+/* ============= 8. Footer Area ======================== */
+.footer-area{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+}
+.footer-area .big-logo img{
+    width: 100px;
+}
+.footer-nav{
+    display: block;
+    padding: 0 30px;
+}
+.footer-nav .first-line, .second-line{
+    width: 100%;
+    display: flex;
+}
+.footer-nav .second-line{
+    padding: 0 40px;
+}
+.footer-nav .first-line .nav-item{
+    flex-basis: 33%;
+}
+.footer-nav .second-line .nav-item{
+    flex-basis: 50%;
+}
+.footer-nav .nav-item{
+    margin-bottom: 5px;
+}
+.footer-nav .nav-item i{
+    font-size: 12px;
+    font-weight: 510;
+}
+.footer-nav .nav-item span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-area .copyright{
+    text-align: center;
+    bottom: 0px;
+}
+.footer-area .copyright p{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.subscribe .p-btn{
+    border-radius: 0;
+}
