@@ -1,0 +1,23 @@
+.wrap{
+    width: 100%;
+    text-align: center;
+}
+.banner{
+    margin: 0 3%;
+}
+.banner img{
+    width: 100%;
+}
+
+.contents{
+    margin: 50px 5% 0;
+}
+.items{
+    width: 100%;
+}
+.item_div_box{
+    margin-bottom: 40px;
+}
+.item_div_box img{
+    width: 100%;
+}

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    width: 100%;
+    background: #fefaee;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Yu Mincho", Serif;
+}
+
+/* banner */
+.banner{
+    min-width: 760px;
+}
+.banner img{
+    width: 100%;
+}
+
+/* coupon */
+.coupon{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.coupon-big-div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.coupon-big-div img{
+    width: 100%;
+}
+.coupon-big-div img:hover{
+    opacity: 0.8;
+}
+.coupon-div{
+    width: 15%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+.coupon-div img{
+    width: 100%;
+}
+.coupon-div img:hover{
+    opacity: 0.8;
+}
+
+/* category */
+.category{
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.category-div{
+    padding: 0 10px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.category-div img{
+    width: 100%;
+}
+.category-div img:hover{
+    opacity: 0.8;
+}
+
+
+/* item */
+.items{
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item-div-box{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.item-div{
+    padding: 5px;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #AAAAAA;
+}
+.item-div img{
+    width: 100%;
+    vertical-align: middle;
+}
+.item-div img:hover{
+    opacity: 0.8;
+}
+.item-origin-price{
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 3px dotted #AAAAAA;
+}
+.item-sale-price{
+    text-align: center;
+    color: #CC0000;
+    margin-top: 10px;
+}
+.item-sale-price-title{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+.item-sale-price-price{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bolder;
+    display: block;
+}
+.item-purchase{
+    text-align: center;
+}
+.item-purchase-link{
+    border-radius: 5px;
+    background-color: #CC0000;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.item-purchase :hover{
+    opacity: 0.6;
+}
+.item-purchase-button{
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+}
