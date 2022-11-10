@@ -1,0 +1,21 @@
+.banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+}
+
+.contents{
+    margin: 50px auto 0;
+    width: 1000px;
+}
+.items{
+    width: 100%;
+}
+.item_div_box{
+    margin-bottom: 50px;
+}
+.item_div_box img{
+    width: 100%;
+}

@@ -2,20 +2,16 @@
   "banner_size" : 630,
   "banner_list" : [
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0002/",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1637298520.jpg"
+      "banner_link": "https://www.rakuten.ne.jp/gold/inslady/event/marathon/sp_marathon.html",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/top-banner-first-4.png"
     },
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0050/",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/compass1638939941.jpg"
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000002/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/top-banner-first-1.png"
     },
     {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0032/",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/item/outer/compass1638712488.jpg"
-    },
-    {
-      "banner_link": "https://item.rakuten.co.jp/inslady/ins0041/",
-      "banner_img": "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1638881823.jpg"
+      "banner_link": "https://item.rakuten.co.jp/inslady/c/0000000011/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/top-banner/top-banner-first-2.png"
     }
   ]
 }
