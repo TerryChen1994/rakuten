@@ -2,52 +2,52 @@
   "ranking_img_size" : 260,
   "ranking_list" : [
     {
-      "ranking_name" : "接触冷感ブラジャー" ,
+      "ranking_name" : "カシミヤ30%至福の肌触りニット" ,
       "ranking_price" : "¥3990",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0248/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/others/711.jpg"
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0280/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0280.jpg"
     },
     {
-      "ranking_name" : "ノースリーブワンピース" ,
-      "ranking_price" : "¥6500",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0226/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1653023441.jpg"
+      "ranking_name" : "毎日寄り添う新作ボーダートップス" ,
+      "ranking_price" : "¥3990",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0271/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins271.jpg"
     },
     {
-      "ranking_name" : "冷感タイプシャツ" ,
-      "ranking_price" : "¥5980",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0241/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/02410.jpg"
+      "ranking_name": "ウール混チェックマフラー",
+      "ranking_price": "¥2990",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0283/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0283-1.jpg"
     },
     {
-      "ranking_name": "パフスリーブブラウス",
-      "ranking_price": "¥5980",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0212/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/0212.jpg"
+      "ranking_name": "2022秋冬向けハイネックニット",
+      "ranking_price": "¥4990",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0255/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0267.jpg"
     },
     {
-      "ranking_name": "冷感タイプカットソー",
-      "ranking_price": "¥5980",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0246/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/2411.jpg"
+      "ranking_name" : "ふわもち裏起毛コーデュロイパンツ" ,
+      "ranking_price" : "¥4990",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0055/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0055.jpg"
     },
     {
-      "ranking_name": "接触冷感カーディガン",
-      "ranking_price": "¥5600",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0235/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/outer/0235.jpg"
+      "ranking_name": "豊富なカラーバリエーションカーディガン",
+      "ranking_price": "¥2980",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0285/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0285.jpg"
     },
     {
-      "ranking_name" : "スカーフ付き2wayショルダーバッグ" ,
-      "ranking_price" : "¥17600",
-      "ranking_link" : "https://item.rakuten.co.jp/inslady/ins0089/",
-      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/bag/0089z.jpg"
+      "ranking_name" : "裏地ありマウンテンパーカー" ,
+      "ranking_price" : "¥4990",
+      "ranking_link" : "https://item.rakuten.co.jp/inslady/cins0181/",
+      "ranking_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0181.jpg"
     },
     {
-      "ranking_name": "冷感タイプフリル袖シャツ",
-      "ranking_price": "¥5600",
-      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0236/",
-      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/0236.jpg"
+      "ranking_name": "48℃キープ「Warm Ringウォームリング」",
+      "ranking_price": "¥2100",
+      "ranking_link": "https://item.rakuten.co.jp/inslady/ins0276/",
+      "ranking_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/0273.jpg"
     }
   ]
 }

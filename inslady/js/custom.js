@@ -13,6 +13,39 @@
             };
         });
 
+        $.getJSON("json/top_banner_first_pc.json", function(data){
+            for(let i=0;i<data["banner_list"].length;i++){
+                $("#top-banner-first").append(
+                    '<div class="top-banner-item first-items position-relative">\n' +
+                    '   <div class="top-banner-thumb">\n' +
+                    '       <a href="' + data["banner_list"][i]["banner_link"] + '">\n' +
+                    '           <img src="' + parseImgUrl(data["banner_list"][i]["banner_img"],data["banner_size"]) + '" alt="img1">\n' +
+                    '       </a>\n' +
+                    '   </div>\n' +
+                    '</div>'
+                );
+            };
+            slider_area_slick_init();
+        });
+        // $.getJSON("json/top_banner_second.json", function(data) {
+        //     $("#top-banner-second").append(
+        //         '<div class="top-banner-item second-items position-relative mb-30">\n' +
+        //         '   <div class="cat-thumb overflow-hidden">\n' +
+        //         '       <a href="' + data["banner_list"][0]["banner_link"] + '">\n' +
+        //         '           <img src="' + data["banner_list"][0]["banner_img"] + '" alt="img2">\n' +
+        //         '       </a>\n' +
+        //         '   </div>\n' +
+        //         '</div>\n' +
+        //         '<div class="top-banner-item third-items position-relative">\n' +
+        //         '   <div class="cat-thumb overflow-hidden">\n' +
+        //         '       <a href="' + data["banner_list"][1]["banner_link"] + '">\n' +
+        //         '           <img src="' + data["banner_list"][1]["banner_img"] + '"" alt="img3">\n' +
+        //         '       </a>\n' +
+        //         '   </div>\n' +
+        //         '</div>'
+        //     );
+        // });
+
         // new_arrival
         $.getJSON("json/new_arrival.json", function(data){
             for (let i=0;i<8;i++){
@@ -133,44 +166,14 @@
             pick_up_slick_init();
         });
 
-        // $.getJSON("json/top_banner_first.json", function(data){
-        //     for(let i=0;i<data["banner_list"].length;i++){
-        //         $("#top-banner-first").append(
-        //             '<div class="top-banner-item first-items position-relative">\n' +
-        //             '   <div class="top-banner-thumb overflow-hidden">\n' +
-        //             '       <a href="' + data["banner_list"][i]["banner_link"] + '">\n' +
-        //             '           <img src="' + parseImgUrl(data["banner_list"][i]["banner_img"],data["banner_size"]) + '" alt="img1">\n' +
-        //             '       </a>\n' +
-        //             '   </div>\n' +
-        //             '</div>'
-        //         );
-        //     };
-        //     slider_area_slick_init();
-        // });
-        // $.getJSON("json/top_banner_second.json", function(data) {
-        //     $("#top-banner-second").append(
-        //         '<div class="top-banner-item second-items position-relative mb-30">\n' +
-        //         '   <div class="cat-thumb overflow-hidden">\n' +
-        //         '       <a href="' + data["banner_list"][0]["banner_link"] + '">\n' +
-        //         '           <img src="' + data["banner_list"][0]["banner_img"] + '" alt="img2">\n' +
-        //         '       </a>\n' +
-        //         '   </div>\n' +
-        //         '</div>\n' +
-        //         '<div class="top-banner-item third-items position-relative">\n' +
-        //         '   <div class="cat-thumb overflow-hidden">\n' +
-        //         '       <a href="' + data["banner_list"][1]["banner_link"] + '">\n' +
-        //         '           <img src="' + data["banner_list"][1]["banner_img"] + '"" alt="img3">\n' +
-        //         '       </a>\n' +
-        //         '   </div>\n' +
-        //         '</div>'
-        //     );
-        // });
+
     });
 
     function parseImgUrl(url,size){
         let imgName = url.replace("https://image.rakuten.co.jp/",
             "https://thumbnail.image.rakuten.co.jp/@0_mall/");
-        imgName = imgName + "?_ex=" + size + "x" + size;
+        // imgName = imgName + "?_ex=" + size + "x" + size;
+        imgName = imgName + "?_ex=1080x500";
         return imgName;
     };
 
@@ -182,14 +185,12 @@
             infinite: true,
             autoplay: true,
             autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             speed: 400,
             prevArrow: '<a class="slider-slick-prev"><i class="las la-arrow-left"></i></a>',
             nextArrow: '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>',
             responsive: [{
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                }
             }
             ]
         });

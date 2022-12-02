@@ -551,11 +551,11 @@ input:-webkit-autofill{
 }
 
 .slider-area .slick-arrow.slider-slick-next {
-    right: 50px;
+    right: -50px;
 }
 
 .slider-area .slick-arrow.slider-slick-prev {
-    left: 50px;
+    left: -50px;
 }
 
 .slider-area .slick-arrow:hover {
@@ -572,12 +572,13 @@ input:-webkit-autofill{
 }
 
 .top-banner-area .slider-area{
-    padding: 0 23px;
+    /*padding: 0 23px;*/
+    width: 1080px;
 }
 
 .top-banner-item.first-items img{
-    width: 630px;
-    height: 630px;
+    width: 1080px;
+    height: 500px;
 }
 
 .top-banner-item img:hover{

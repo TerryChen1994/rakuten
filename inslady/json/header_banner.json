@@ -1,8 +1,12 @@
 {
   "banner_list" : [
     {
-      "banner_link": "https://www.rakuten.ne.jp/gold/inslady/event/marathon/sp_marathon.html",
-      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/coldbra.png"
+      "banner_link": "https://item.rakuten.co.jp/inslady/ins0273/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/warmneck1.png"
+    },
+    {
+      "banner_link": "https://item.rakuten.co.jp/inslady/ins0274/",
+      "banner_img": "https://www.rakuten.ne.jp/gold/inslady/img/header-banner/warmneck2.png"
     }
   ]
 }

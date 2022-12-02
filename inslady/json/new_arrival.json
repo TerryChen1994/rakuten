@@ -2,52 +2,52 @@
   "new_arrival_img_size" : 260,
   "new_arrival_list" : [
     {
-      "new_arrival_name": "接触冷感ブラジャー",
-      "new_arrival_price": "¥3990",
-      "new_arrival_link": "https://item.rakuten.co.jp/inslady/ins0248/",
-      "new_arrival_img": "https://image.rakuten.co.jp/inslady/cabinet/item/others/711.jpg"
+      "new_arrival_name": "カップ付裏起毛インナー",
+      "new_arrival_price": "¥1998",
+      "new_arrival_link": "https://item.rakuten.co.jp/inslady/ins0132/",
+      "new_arrival_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins132.jpg"
     },
     {
-      "new_arrival_name": "冷感タイプカットソー",
-      "new_arrival_price": "¥5980",
-      "new_arrival_link": "https://item.rakuten.co.jp/inslady/ins0246/",
-      "new_arrival_img": "https://image.rakuten.co.jp/inslady/cabinet/item/tops/2411.jpg"
+      "new_arrival_name": "ふわもち裏起毛コーデュロイパンツ",
+      "new_arrival_price": "¥4990",
+      "new_arrival_link": "https://item.rakuten.co.jp/inslady/ins0055/",
+      "new_arrival_img": "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0055.jpg"
     },
     {
-      "new_arrival_name" : "冷感タイプシャツ" ,
-      "new_arrival_price" : "¥5980",
-      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0241/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/02410.jpg"
+      "new_arrival_name" : "あったか裏起毛腹巻ショーツ" ,
+      "new_arrival_price" : "¥2990",
+      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0295/",
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0295.jpg"
     },
     {
-      "new_arrival_name" : "冷感タイプフリル袖シャツ" ,
-      "new_arrival_price" : "¥5600",
-      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0236/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/tops/0236.jpg"
+      "new_arrival_name" : "保温・除湿・蓄熱インソール" ,
+      "new_arrival_price" : "¥1999",
+      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0253/",
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0253.jpg"
     },
     {
-      "new_arrival_name" : "接触冷感カーディガン" ,
-      "new_arrival_price" : "¥5600",
-      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0235/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/outer/0235.jpg"
+      "new_arrival_name" : "カップ付きふわもちインナー" ,
+      "new_arrival_price" : "¥3990",
+      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0296/",
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/resource/yiqiji/ins0296.jpg"
     },
     {
-      "new_arrival_name" : "2点セットアップニットスカート" ,
-      "new_arrival_price" : "¥6250",
-      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0234/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1653014542.jpg"
-    },
-    {
-     "new_arrival_name" : "ノースリーブワンピース" ,
-      "new_arrival_price" : "¥4500",
-      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0233/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1653013493.jpg"
-    },
-    {
-      "new_arrival_name" : "ポケット付き可愛いワンピース" ,
-      "new_arrival_price" : "¥7200",
+      "new_arrival_name" : "深あり裏起毛インナー" ,
+      "new_arrival_price" : "¥3999",
       "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0232/",
-      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/onepiece/compass1653013033.jpg"
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0232.jpg"
+    },
+    {
+     "new_arrival_name" : "48℃キープ「Warm Ringウォームリング」" ,
+      "new_arrival_price" : "¥2100",
+      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0276/",
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/0273.jpg"
+    },
+    {
+      "new_arrival_name" : "袖濡れ防止リストバンド" ,
+      "new_arrival_price" : "¥138",
+      "new_arrival_link" : "https://item.rakuten.co.jp/inslady/ins0294/",
+      "new_arrival_img" : "https://image.rakuten.co.jp/inslady/cabinet/item/main/ins0294.jpg"
     }
   ]
 }
